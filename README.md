@@ -11,7 +11,7 @@
 | 자료 | 쓰는 날 | 어디서 |
 |---|---|---|
 | 문서 템플릿 (워크시트) | Day 1~4 | [worksheet.md](https://github.com/wild-mental/ax-wave-uxui-wildmental/blob/main/worksheet-template/worksheet.md)를 내 **Private** 저장소 `axyourbody-worksheet`에 옮겨 쓰고 강사 `wild-mental`을 초대 ([시작하는 법](https://github.com/wild-mental/ax-wave-uxui-wildmental/tree/main/worksheet-template) · 교재 부록 A-2) |
-| Figma 템플릿 | Day 2~3 | [Figma 템플릿 SVG](figma-template/) — 내려받아 내 Figma 파일에 끌어다 놓습니다 (교재 부록 A-3) |
+| Figma 템플릿 | Day 2~3 | [AX YOUR BODY Figma 템플릿](https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-MY-BODY-Figma-Template) — 열어서 **Duplicate to your drafts**로 내 계정에 복제합니다 (교재 부록 A-3) |
 | 공통 PRD와 프로필 카드 | Day 1~4 | [공통 PRD · 프로필 카드](textbook-materials/) — 지시문에 붙여 넣을 글 |
 | 프로필 데이터셋 | Day 1~4 | [datasets](datasets/) — 고른 프로필 폴더(`m-general` · `f-general` · `m-athlete` · `f-athlete`)의 CSV 4개 |
 | 지시문 킷 | Day 3~4 | [Part 3·4 지시문 킷](kits/claude-code-prompts.md) |
@@ -25,7 +25,7 @@
 |---|---|
 | A-1 | [Claude 시작 가이드](guides/claude-start-guide.md) |
 | A-2 | [GitHub 워크시트 저장소 가이드](guides/github-worksheet-repo-guide.md) |
-| A-3 | [Figma 템플릿 만들기 가이드](guides/figma-template-guide.md) |
+| A-3 | [Figma 템플릿 열기·복제 가이드](guides/figma-template-guide.md) |
 | A-4 | [Stitch 시작 가이드](guides/stitch-start-guide.md) |
 | A-5 | [Claude Code 데스크톱 앱 설치 (Mac판 · Windows판)](guides/claude-code-install-guide.md) |
 | A-6 | [GitHub Pages 정적 배포 가이드](guides/github-pages-deploy-guide.md) |

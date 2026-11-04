@@ -1,28 +1,19 @@
-# Figma 템플릿 — SVG를 끌어다 놓아 내 Figma 파일 만들기
+# Figma 템플릿 — 내 계정으로 복제해서 쓰기
 
-Figma에서 쓰는 워크시트 세 개(이벤트 보드 · 화면 흐름 순서표와 화면 목록 · 시안 비교표)를 SVG 파일로 준비했습니다. 내 Figma 파일에 끌어다 놓으면 칸 이름 상자·레인·표·체크리스트가 고칠 수 있는 도형과 글자로 들어옵니다. 교재 부록 A-3과 「[Figma 템플릿 만들기 가이드](../guides/figma-template-guide.md)」를 함께 봅니다.
+Figma에서 쓰는 워크시트 세 개(이벤트 보드 · 화면 흐름 순서표와 화면 목록 · 시안 비교표)가 들어 있는 Figma 템플릿 파일을 내 계정으로 복제해서 씁니다. 교재 부록 A-3과 「[Figma 템플릿 열기·복제 가이드](../guides/figma-template-guide.md)」를 함께 봅니다.
 
-## 내려받을 파일
+**템플릿 파일:** [https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-MY-BODY-Figma-Template](https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-MY-BODY-Figma-Template)
 
-| 페이지 | 파일 |
-|---|---|
-| 00 표지 | [00-cover.svg](00-cover.svg) |
-| 01 고객 여정 위에 사건과 대상 객체를 붙인 이벤트 보드 | [01-event-board.svg](01-event-board.svg) |
-| 02 과업별 화면 흐름 순서표와 화면 목록 | [02-screen-flow.svg](02-screen-flow.svg) |
-| 03 Google Stitch로 만든 테마별 화면 시안 비교표 | [03-draft-comparison.svg](03-draft-comparison.svg) |
+## 복제하는 순서
 
-링크를 열고 오른쪽 버튼 → 「다른 이름으로 링크 저장」으로 내려받습니다.
+1. figma.com에 로그인한 뒤 위 템플릿 링크를 엽니다. 원본은 보기만 할 수 있습니다.
+2. 위쪽 파일 이름 옆의 메뉴(▾)에서 **Duplicate to your drafts**(내 초안에 복제)를 누릅니다.
+3. 복제한 파일은 내 계정의 **Drafts**(초안)에 생깁니다. 무료 계정도 Drafts에서는 파일 수·페이지 수 제한이 없습니다. 팀 프로젝트로 옮기면 무료 계정은 파일 하나에 페이지 3개까지라 이 템플릿이 다 들어가지 않으니 Drafts에 둡니다.
+4. 복제한 파일 이름을 `axyourbody_이름_프로필ID`로 바꿉니다. 예) `axyourbody_홍길동_f-athlete`
+5. 칸 이름 상자와 레인 이름 띠는 잠가 두면(Lock) 실수로 지우지 않습니다. 카드는 「복사해서 쓰는 카드」의 견본을 복사해(Mac Option, Windows Alt를 누른 채 끌기) 레인에 붙입니다.
+6. 제출할 때는 강사만 볼 수 있게 공유하고, 공유 링크를 내 워크시트 저장소의 `worksheet.md` 맨 위 Figma 링크 칸에 적습니다.
 
-## 만드는 순서
-
-1. Figma에서 새 디자인 파일을 만들고 이름을 `axyourbody_이름_프로필ID`로 바꿉니다. 예) `axyourbody_홍길동_f-athlete`
-2. 왼쪽 페이지 목록에서 페이지를 네 개 만들고 위 표의 페이지 이름을 그대로 붙입니다.
-3. 페이지마다 해당 SVG 파일을 캔버스에 끌어다 놓습니다.
-4. 들어온 상자 안의 글자를 더블클릭해 고칩니다. 레이어 목록에는 "여정 레인", "단계 1", "사건 카드 견본"처럼 이름이 붙어 있습니다.
-5. 칸 이름 상자와 레인 이름 띠는 잠가 두면(Lock) 실수로 지우지 않습니다.
-6. 카드는 오른쪽 「복사해서 쓰는 카드」의 견본을 복사해(Mac Option, Windows Alt를 누른 채 끌기) 레인에 붙입니다.
-
-색만으로 구분하지 않습니다. 카드는 **라벨 글자와 모양**으로 구분되어 흑백으로 출력해도 읽힙니다.
+템플릿 링크가 열리지 않을 때는 이 폴더의 SVG 파일(00-cover · 01-event-board · 02-screen-flow · 03-draft-comparison)을 **Figma Design 파일**(FigJam 아님)의 페이지마다 끌어다 놓아 같은 구성을 만들 수 있습니다.
 
 아래는 각 페이지에 들어 있는 칸과 완료 기준 체크리스트입니다. SVG 안의 내용과 같습니다.
 
