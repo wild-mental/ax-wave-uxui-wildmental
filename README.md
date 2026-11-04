@@ -12,6 +12,7 @@
 |---|---|---|
 | 문서 템플릿 (워크시트) | Day 1~4 | [worksheet.md](https://github.com/wild-mental/ax-wave-uxui-wildmental/blob/main/worksheet-template/worksheet.md)를 내 **Private** 저장소 `axyourbody-worksheet`에 옮겨 쓰고 강사 `wild-mental`을 초대 ([시작하는 법](https://github.com/wild-mental/ax-wave-uxui-wildmental/tree/main/worksheet-template) · 교재 부록 A-2) |
 | Figma 템플릿 | Day 2~3 | [Figma 템플릿 안내](figma-template/) — 내 Figma 파일에 페이지 세 개를 직접 만듭니다 (교재 부록 A-3) |
+| 공통 PRD와 프로필 카드 | Day 1~4 | [공통 PRD · 프로필 카드](textbook-materials/) — 지시문에 붙여 넣을 글 |
 | 프로필 데이터셋 | Day 1~4 | [datasets](datasets/) — 고른 프로필 폴더(`m-general` · `f-general` · `m-athlete` · `f-athlete`)의 CSV 4개 |
 | 지시문 킷 | Day 3~4 | [Part 3·4 지시문 킷](kits/claude-code-prompts.md) |
 | 샘플 DESIGN.md | Day 3~4 | [DESIGN-axyourbody-sample.md](kits/DESIGN-axyourbody-sample.md) |

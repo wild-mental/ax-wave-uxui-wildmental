@@ -10,5 +10,14 @@ for p in m-general f-general m-athlete f-athlete; do
   mkdir -p "$HERE/datasets/$p" && cp "$SRC/dataset/$p/"*.csv "$HERE/datasets/$p/"
 done
 cp "$SRC/ONLINE_MATERIALS_PLAN.md" "$HERE/_context/"
+python3 - "$SRC/manuscript" "$HERE/textbook-materials" <<'PY'
+import re, sys
+m, out = sys.argv[1], sys.argv[2]
+note = '> 교재 「웹서비스 UX/UI 기획」 앞부분과 같은 글입니다. Claude에 붙여 넣을 때 필요한 부분만 복사해 쓰세요.\n\n'
+for src, dst in [('01-common-prd.md', 'common-prd.md'), ('02-profiles.md', 'profile-cards.md')]:
+    s = re.sub(r'<!--.*?-->\n?', '', open(f'{m}/{src}', encoding='utf-8').read())
+    head, body = s.split('\n', 1)
+    open(f'{out}/{dst}', 'w', encoding='utf-8').write(head + '\n\n' + note + body.lstrip('\n'))
+PY
 python3 "$HERE/_context/gen_placeholders.py"
 echo "사본과 교재 원문 발췌를 다시 만들었습니다. git diff 로 바뀐 곳을 확인하세요."
