@@ -32,7 +32,7 @@
 ### 이 가이드가 채울 것 (교재에 없는 것)
 
 - 교재 A-3 일곱 단계를 화면으로 (Mac · Windows)
-- 템플릿 원본: https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-MY-BODY-Figma-Template — 강사 계정 파일. 공유 설정 "링크가 있는 누구나 보기" 확인
+- 템플릿 원본: https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-YOUR-BODY-Figma-Template — 강사 계정 파일. 공유 설정 "링크가 있는 누구나 보기" 확인
 - Duplicate to your drafts 메뉴 위치 정지 화면 1장
 - 예비: figma-template/ SVG 4장 (FigJam이 아니라 Design 파일에)
 

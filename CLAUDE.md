@@ -11,7 +11,7 @@
 - 강사 결정 (상위 프로젝트 `docs/4-1/TEXTBOOK_SPEC.md` §32):
   - 자료실·문서 템플릿·Figma 템플릿 안내는 **이 저장소 하나**에서 경로로 나눠 제공합니다.
   - 학생은 비공개 저장소 `axyourbody-worksheet`를 새로 만들고, `worksheet-template/worksheet.md`를 Copy raw file로 복사해 붙여 넣은 뒤 `wild-mental`을 초대합니다. 이미지는 그 저장소 맨 위에 올립니다.
-  - Figma 템플릿은 강사 계정의 Figma 파일(https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-MY-BODY-Figma-Template)을 학생이 Duplicate to your drafts로 복제해서 씁니다. `figma-template/` SVG는 예비입니다.
+  - Figma 템플릿은 강사 계정의 Figma 파일(https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-YOUR-BODY-Figma-Template)을 학생이 Duplicate to your drafts로 복제해서 씁니다. `figma-template/` SVG는 예비입니다.
   - 정적 배포는 GitHub Pages로 일원화(학생의 배포 전용 공개 저장소). Claude Code 유료 플랜이 없으면 다른 회사의 AI 코딩 도구 허용. 화면 녹화는 만들지 않습니다.
 - 수업: 2026-11-24(화) ~ 27(금), Day 1~4 = 교재 Part 1~4.
 

@@ -33,7 +33,7 @@ G = [
   ['교재 A-2 전체를 화면으로','자료실 저장소 주소: https://github.com/wild-mental/ax-wave-uxui-wildmental (인쇄된 주소), 문서 템플릿은 `worksheet-template/worksheet.md`','강사 GitHub 아이디 `wild-mental` (인쇄됨)','실수로 Public으로 만들었을 때 Settings → Danger Zone → Change visibility','저장 이력(Commits)으로 지난 내용 되돌려 보는 법 한 단락']),
  ('figma-template-guide','Figma 템플릿 열기·복제 가이드','appendix-a-tools.md','## A-3','부록 A-3 · Figma · Day 2~3','T','P0',
   ['Figma 무료 계정으로 로그인','템플릿 링크 열기 (원본은 보기 전용)','파일 이름 옆 메뉴 → Duplicate to your drafts (내 초안에 복제)','Drafts에 둘 것: 무료 계정 팀 프로젝트는 파일당 페이지 3개 제한','복제한 파일 이름 `axyourbody_이름_프로필ID`로 바꾸기','워크시트 페이지 세 개 찾기','칸 이름 상자·레인 띠 잠그기 (Lock)','「복사해서 쓰는 카드」 견본 복사해 늘리기 (Option/Alt 끌기)','강사만 볼 수 있게 공유하기 (초대 또는 링크 범위 제한)','공유 링크를 `worksheet.md` 맨 위 「Figma 파일 링크」에 붙이기','FigJam과 헷갈리지 않기 · 링크가 열리지 않을 때 SVG로 만드는 법','화면 확인 날짜'],
-  ['교재 A-3 일곱 단계를 화면으로 (Mac · Windows)','템플릿 원본: https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-MY-BODY-Figma-Template — 강사 계정 파일. 공유 설정 "링크가 있는 누구나 보기" 확인','Duplicate to your drafts 메뉴 위치 정지 화면 1장','예비: figma-template/ SVG 4장 (FigJam이 아니라 Design 파일에)']),
+  ['교재 A-3 일곱 단계를 화면으로 (Mac · Windows)','템플릿 원본: https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-YOUR-BODY-Figma-Template — 강사 계정 파일. 공유 설정 "링크가 있는 누구나 보기" 확인','Duplicate to your drafts 메뉴 위치 정지 화면 1장','예비: figma-template/ SVG 4장 (FigJam이 아니라 Design 파일에)']),
  ('stitch-start-guide','Stitch 시작 가이드','appendix-a-tools.md','## A-4','부록 A-4 · Google Stitch · Day 3','T','P0',
   ['Google 계정으로 stitch.withgoogle.com 로그인','새 프로젝트, 플랫폼은 웹(데스크톱)','지시문 킷의 「Stitch 테마별 시안 생성 지시문」 붙여 넣기','DESIGN.md 내용 붙여 넣기 또는 파일 첨부','변경 지시는 한 번에 한 가지','시안을 이미지로 내보내기 → Figma 시안 비교표에 붙이기','막혔을 때 (생성 한도, 첨부 실패 등)','화면 확인 날짜'],
   ['교재 A-4 다섯 단계를 화면으로','실습 흐름(테마별 비교)은 「Stitch 시안 만들기 가이드」가 맡음 — 여기서는 조작만']),

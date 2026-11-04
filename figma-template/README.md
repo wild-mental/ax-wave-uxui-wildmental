@@ -2,7 +2,7 @@
 
 Figma에서 쓰는 워크시트 세 개(이벤트 보드 · 화면 흐름 순서표와 화면 목록 · 시안 비교표)가 들어 있는 Figma 템플릿 파일을 내 계정으로 복제해서 씁니다. 교재 부록 A-3과 「[Figma 템플릿 열기·복제 가이드](../guides/figma-template-guide.md)」를 함께 봅니다.
 
-**템플릿 파일:** [https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-MY-BODY-Figma-Template](https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-MY-BODY-Figma-Template)
+**템플릿 파일:** [https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-YOUR-BODY-Figma-Template](https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-YOUR-BODY-Figma-Template)
 
 ## 복제하는 순서
 
