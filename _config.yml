@@ -2,7 +2,7 @@
 # 기본 플러그인(optional-front-matter, readme-index, relative-links, titles-from-headings)이
 # 앞머리(front matter) 없는 .md 파일을 페이지로 바꾸고, README.md를 각 폴더의 첫 화면으로 쓰고,
 # guides/xxx.md 같은 상대 링크를 .html로 이어 줍니다.
-title: AX YOUR BODY · 4-1 온라인 자료실
+title: AX YOUR BODY · 웹서비스 UX/UI 기획 온라인 자료실
 lang: ko
 theme: jekyll-theme-primer
 

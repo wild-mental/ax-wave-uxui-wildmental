@@ -1,4 +1,4 @@
-# AX YOUR BODY · 4-1 워크시트 (문서 템플릿)
+# AX YOUR BODY · 워크시트 (문서 템플릿)
 
 > 이 파일은 내 비공개 저장소 `axyourbody-worksheet`에 `worksheet.md`로 옮겨 씁니다(교재 부록 A-2). 강사 GitHub 아이디 `wild-mental`을 그 저장소에 초대합니다.
 
