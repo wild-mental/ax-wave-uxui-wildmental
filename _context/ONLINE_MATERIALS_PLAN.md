@@ -17,7 +17,7 @@
 |---|---|
 | 온라인 자료실 | 공개 저장소 `wild-mental/ax-wave-uxui-wildmental` 하나에서 경로로 나눠 제공 + GitHub Pages. 주소와 강사 GitHub 아이디 `wild-mental`을 **부록 A 첫 쪽에 인쇄** |
 | 문서 템플릿 | 같은 저장소의 `worksheet-template/worksheet.md`. 학생은 비공개 저장소 `axyourbody-worksheet`를 만들고 Copy raw file로 옮겨 쓴 뒤 `wild-mental`을 초대 |
-| Figma 템플릿 | 실물 파일 없이 같은 저장소의 `figma-template/README.md` 안내대로 학생이 직접 만듦 |
+| Figma 템플릿 | 같은 저장소의 `figma-template/` SVG 4장을 학생이 Figma에 끌어다 놓아 만듦 |
 | 워크시트 제출 | 워크시트 저장소 링크(비공개·강사 초대) · Figma 링크(강사만 열람) · 배포 링크 · `my-own-DESIGN.md`(워크시트 저장소에 올림) |
 | 정적 배포 | GitHub Pages로 일원화(Netlify 삭제). 배포 전용 공개 저장소에 `index.html`·`favicon.svg`만 |
 | Claude Code 유료 플랜 | 없으면 다른 회사의 AI 코딩 도구를 써도 됨(교재 앞부분 「쓰는 도구」에 한 번 안내) |
@@ -60,7 +60,7 @@
 | ① | 사전 안내문 (Mac판 · Windows판) | 자리표시 (`pre-course-notice.md`) | 수업 전에 끝낼 일: GitHub 계정(아이디가 배포 주소에 들어감)과 워크시트 저장소(강사 `wild-mental` 초대) · Claude 계정 · Claude Code 데스크톱 앱 설치·로그인(유료 플랜이 없으면 다른 AI 코딩 도구) · Figma 무료 계정 · Google 계정(Stitch) · 자료실 주소 · 설치 확인 방법 | **11/17(화)** |
 | ② | 온라인 자료실 (허브) | 뼈대 완료 (`README.md` = 첫 화면) | Day별 가이드 목록 + 배포물 링크. GitHub Pages로 공개 | 11/17 |
 | ③ | 문서 템플릿 | **완료** (`worksheet-template/`) | `worksheet.md` + 시작 안내 `README.md`. 학생은 github.com 화면에서 복사 | 완료 |
-| ④ | Figma 템플릿 안내 | **완료** (`figma-template/README.md`) | 실물 파일 대신 학생이 직접 만드는 안내: 파일 이름 · 페이지 4개 · 레인·영역·열 · 체크리스트 · 공유 | 완료 |
+| ④ | Figma 템플릿 SVG | **완료** (`figma-template/*.svg` 4장 + README) | 학생이 Figma에 끌어다 놓아 만드는 SVG. Figma에서 글자가 편집 가능하게 들어오는지 수업 전 확인 | 11/17 확인 |
 | ⑤ | 데이터셋 | 원본 복사 완료 (`datasets/`) | 프로필별 폴더 4개 × CSV 4개. 필요하면 프로필별 압축 파일 추가 | 11/21 |
 | ⑥ | 지시문 킷 | 원본 복사 완료 (`kits/claude-code-prompts.md`) | 지시문 12개. 복사하기 쉽게 코드 블록 유지 | 11/21 |
 | ⑦ | 샘플 DESIGN.md | 원본 복사 완료 (`kits/DESIGN-axyourbody-sample.md`) | 그대로 | 11/21 |
