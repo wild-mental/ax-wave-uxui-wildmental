@@ -33,7 +33,7 @@
 ### 이 가이드가 채울 것 (교재에 없는 것)
 
 - 교재 A-2 전체를 화면으로
-- 자료실 저장소 주소: https://github.com/wild-mental/ax-wave-uxui-wildmental (인쇄된 주소), 문서 템플릿은 `worksheet-template/worksheet.md`
+- 자료실 저장소 주소: https://github.com/wild-mental/ax-wave-uxui-wildmental (인쇄된 주소), 워크시트 문서은 `worksheet-template/worksheet.md`
 - 강사 GitHub 아이디 `wild-mental` (인쇄됨)
 - 실수로 Public으로 만들었을 때 Settings → Danger Zone → Change visibility
 - 저장 이력(Commits)으로 지난 내용 되돌려 보는 법 한 단락

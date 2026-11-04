@@ -6,10 +6,10 @@
 
 - 교재는 이 자료실보다 **먼저 인쇄**되었습니다. 교재는 가이드를 이름으로만 가리키고(`→ 온라인 가이드: 「이름」` 30곳, 27개), 부록 A 첫 쪽에 아래를 인쇄했습니다. 그래서 **계정 이름, 저장소 이름, 폴더 이름(`worksheet-template`, `figma-template`), 가이드 제목은 바꿀 수 없습니다.**
   - 자료실: `https://wild-mental.github.io/ax-wave-uxui-wildmental/` (이 저장소의 GitHub Pages)
-  - 자료실 저장소: `https://github.com/wild-mental/ax-wave-uxui-wildmental` (문서 템플릿 `worksheet-template/worksheet.md`)
+  - 자료실 저장소: `https://github.com/wild-mental/ax-wave-uxui-wildmental` (워크시트 문서 `worksheet-template/worksheet.md`)
   - 강사 GitHub 아이디: `wild-mental` (학생이 비공개 워크시트 저장소에 초대)
 - 강사 결정 (상위 프로젝트 `docs/4-1/TEXTBOOK_SPEC.md` §32):
-  - 자료실·문서 템플릿·Figma 템플릿 안내는 **이 저장소 하나**에서 경로로 나눠 제공합니다.
+  - 자료실·워크시트 문서·Figma 템플릿 안내는 **이 저장소 하나**에서 경로로 나눠 제공합니다.
   - 학생은 비공개 저장소 `axyourbody-worksheet`를 새로 만들고, `worksheet-template/worksheet.md`를 Copy raw file로 복사해 붙여 넣은 뒤 `wild-mental`을 초대합니다. 이미지는 그 저장소 맨 위에 올립니다.
   - Figma 템플릿은 강사 계정의 Figma 파일(https://www.figma.com/design/m1TCwCzHWB0oVgRuekyCeT/AX-YOUR-BODY-Figma-Template)을 학생이 Duplicate to your drafts로 복제해서 씁니다. `figma-template/` SVG는 예비입니다.
   - 정적 배포는 GitHub Pages로 일원화(학생의 배포 전용 공개 저장소). Claude Code 유료 플랜이 없으면 다른 회사의 AI 코딩 도구 허용. 화면 녹화는 만들지 않습니다.
@@ -25,7 +25,7 @@
 | `figma-template/README.md` | Figma 템플릿 안내 (기준 문서: 페이지·레인·칸·체크리스트) | 예 |
 | `datasets/` | 프로필 4명 × CSV 4개 (가상 데이터) + 열 이름 안내 | 예 |
 | `kits/` | 지시문 킷, 샘플 DESIGN.md | 예 |
-| `worksheet-template/` | 문서 템플릿 (기준 문서). 학생은 github.com 화면에서 열어 복사 | 아니오 (저장소 화면에서 봄) |
+| `worksheet-template/` | 워크시트 문서 (기준 문서). 학생은 github.com 화면에서 열어 복사 | 아니오 (저장소 화면에서 봄) |
 | `_context/` | 작업 맥락: 규칙, 제작 계획, 교재 원문 발췌, 생성·동기화 스크립트 | 아니오 (저장소에는 공개) |
 
 ## 가이드 하나를 쓰는 순서
@@ -47,7 +47,7 @@
 
 ## 교재가 바뀌었을 때
 
-상위 프로젝트(`../docs/4-1/`)가 원고·킷·데이터셋의 원본입니다. 바뀌면 저장소 맨 위에서 `sh _context/sync-from-textbook.sh`를 실행해 사본과 교재 원문 발췌를 다시 만듭니다. 자리표시 상태의 가이드만 다시 만들어지고, 본문을 쓴 가이드는 그대로입니다. 문서 템플릿과 Figma 템플릿 안내는 이 저장소가 원본입니다.
+상위 프로젝트(`../docs/4-1/`)가 원고·킷·데이터셋의 원본입니다. 바뀌면 저장소 맨 위에서 `sh _context/sync-from-textbook.sh`를 실행해 사본과 교재 원문 발췌를 다시 만듭니다. 자리표시 상태의 가이드만 다시 만들어지고, 본문을 쓴 가이드는 그대로입니다. 워크시트 문서과 Figma 템플릿 안내는 이 저장소가 원본입니다.
 
 ## 공개 상태
 

@@ -26,7 +26,7 @@
 
 가이드 제목(맨 위 `#` 줄)은 인쇄본의 `→ 온라인 가이드: 「이름」`과 글자 하나까지 같아야 합니다. 목록: `_context/ONLINE_MATERIALS_PLAN.md` §3-2 또는 `_context/guides.json`.
 
-### 워크시트 (문서 템플릿 `worksheet-template/worksheet.md` · Figma 템플릿)
+### 워크시트 (워크시트 문서 `worksheet-template/worksheet.md` · Figma 템플릿)
 
 | 워크시트 | 쓰는 곳 | 교재 |
 |---|---|---|
