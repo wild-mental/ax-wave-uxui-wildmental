@@ -14,24 +14,9 @@
 작업 폴더 만들기
 1. 바탕화면이나 문서 폴더에 `axyourbody-prototype` 폴더를 만듭니다.
 2. 그 안에 `context`, `design`, `data` 폴더를 만들고 재료를 넣습니다. 프로토타입 파일은 Claude Code가 폴더 맨 위에 만듭니다. 아래 `calm-record-board`, `sport-brand`는 박준혁 프로필로 실습한 예의 테마 이름입니다. 여러분은 DESIGN.md 쇼핑 목록에 붙인 테마 이름(영문 소문자와 하이픈)을 씁니다.
-   ```
-   axyourbody-prototype/
-   ├── context/
-   │   ├── service-structure.md   ← Part 2의 서비스 구조 설명서
-   │   └── screen-flow.md         ← Part 3의 화면 흐름 순서표·화면 목록·상태 화면 목록
-   ├── design/
-   │   ├── DESIGN-calm-record-board.md   ← 쇼핑 목록의 테마 이름
-   │   └── DESIGN-sport-brand.md
-   ├── data/                      ← 고른 프로필의 CSV 4개 (또는 내 기록)
-   ├── prototype-first-calm-record-board.html   ← Part 3에서 만드는 파일
-   ├── prototype-first-sport-brand.html
-   ├── prototype-merged.html      ← Part 4에서 만드는 파일 (아래로 차례대로)
-   ├── prototype-improved.html
-   ├── brand-resources.html
-   ├── prototype-final.html
-   ├── my-own-DESIGN.md
-   └── deploy/                    ← index.html + favicon.svg 만
-   ```
+
+   ![작업 폴더 구조 — 박준혁 프로필로 실습한 예의 테마 이름](../figures/a-5-work-folder.svg)
+   *그림: 작업 폴더 구조 — 박준혁 프로필로 실습한 예의 테마 이름*
 3. Claude Code에서 이 폴더를 **작업 폴더로 열어** 줍니다. Claude Code는 이 폴더 안의 파일만 읽고 씁니다.
 
 지시하고 확인하기
