@@ -83,7 +83,7 @@
 | 8 | 과업·불편 목록 가이드 | `task-pain-list-guide.md` | Part 1 · 4절, 5절 | W | P1 | 작성 |
 | 9 | 페르소나 카드 가이드 | `persona-card-guide.md` | Part 1 · 6절 | W | P2 | 작성 |
 | 10 | 이벤트 보드 사용 가이드 | `event-board-guide.md` | Part 2 · 2-2, 2-4 | W+T | P1 | 작성 |
-| 11 | 대상 카드 작성 가이드 | `object-card-guide.md` | Part 2 · 2-5 | W | P2 | 작성 |
+| 11 | 대상 객체 카드 작성 가이드 | `object-card-guide.md` | Part 2 · 2-5 | W | P2 | 작성 |
 | 12 | 용어 대조표 작성 가이드 | `term-matching-guide.md` | Part 2 · 2-6 | W | P2 | 작성 |
 | 13 | 진입점 선택표 작성 가이드 | `entry-point-guide.md` | Part 2 · 2-7 | W | P2 | 작성 |
 | 14 | 서비스 구조 설명서 작성 가이드 | `service-structure-guide.md` | Part 2 · 2-8 | W | P1 | 작성 |

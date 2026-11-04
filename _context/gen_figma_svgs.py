@@ -50,8 +50,13 @@ class SVG:
 
     @staticmethod
     def text(x, y, s, size=18, fill=INK, weight=400, anchor='start'):
-        return (f'<text x="{x}" y="{y}" font-family="{FONT}" font-size="{size}" font-weight="{weight}" '
-                f'fill="{fill}" text-anchor="{anchor}">{escape(s)}</text>')
+        # Figma 가져오기용: 크기는 px 단위 style, 글꼴은 Figma 기본 제공 Noto Sans KR 하나, 가운데·끝 정렬은 x를 직접 계산
+        if anchor == 'middle':
+            x = x - tw(s, size) / 2
+        elif anchor == 'end':
+            x = x - tw(s, size)
+        style = f"font-family:'Noto Sans KR';font-size:{size}px;font-weight:{weight};fill:{fill}"
+        return f'<text x="{x:.1f}" y="{y:.1f}" style="{style}">{escape(s)}</text>'
 
     def texts(self, x, y, s, size, width, fill=INK, weight=400, lh=1.45):
         out = []
@@ -61,7 +66,7 @@ class SVG:
 
     def save(self, name):
         body = '\n'.join(self.parts)
-        svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w}" height="{self.h}" '
+        svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w}px" height="{self.h}px" '
                f'viewBox="0 0 {self.w} {self.h}">\n{body}\n</svg>\n')
         with open(os.path.join(OUT, name), 'w', encoding='utf-8') as f:
             f.write(svg)
@@ -119,8 +124,8 @@ def cover():
 def event_board():
     W, H = 3400, 1560
     s = SVG(W, H, '이벤트 보드')
-    header(s, '고객 여정 위에 사건과 대상을 붙인 이벤트 보드',
-           '교재 2.2절(여정 레인) · 2.4절(사건·대상·질문 레인) · 칸 이름 상자는 지우지 말고 잠가 두세요(Lock)', 2360)
+    header(s, '고객 여정 위에 사건과 대상 객체를 붙인 이벤트 보드',
+           '교재 2.2절(여정 레인) · 2.4절(사건·대상 객체·질문 레인) · 칸 이름 상자는 지우지 말고 잠가 두세요(Lock)', 2360)
     LX, LW, AX, AR = 60, 190, 250, 2420  # lane label x/width, area x/right
     y0 = 190
     # 여정 레인: 단계 상자 6개
@@ -140,10 +145,10 @@ def event_board():
         s.g(f'단계 {i + 1}', box)
     inner.append(s.text(AX + 10, y0 + jh + 30, '단계는 4~6개를 시간순으로 씁니다. 남는 상자는 지웁니다. 감정 숫자는 단계 사이를 실선으로 잇습니다.', 16, HINT))
     s.g('여정 레인', inner)
-    # 사건·대상·질문 레인
+    # 사건·대상 객체·질문 레인
     y = y0 + jh + 56
     for name, h, hint in [('사건', 250, '사건 카드를 여정 단계 아래에 시간순으로 붙입니다. 과거형으로 씁니다. 예) "세트가 기록됨"'),
-                          ('대상', 230, '사건 속 명사를 대상 카드로 붙입니다. 같은 대상은 한 장만 둡니다.'),
+                          ('대상 객체', 230, '사건 속 명사를 대상 객체 카드로 붙입니다. 같은 대상 객체는 한 장만 둡니다.'),
                           ('질문', 190, '지금 답할 수 없는 것을 질문 카드로 남깁니다.')]:
         s.g(f'{name} 레인', band_label(s, LX, y, LW, h, name) + [
             s.rect(AX + 10, y + 10, AR - AX - 10, h - 20, fill=PAPER, stroke=LINE, sw=2, dash='10 8', rx=6),
@@ -154,8 +159,8 @@ def event_board():
     cy = checklist(s, RX, 190, RW, [
         '여정 단계를 4~6개 적고 단계마다 근거 날짜를 붙였다',
         '사건을 과거형으로 10개 이상 시간순으로 붙였다',
-        '사건마다 등장하는 대상을 대상 레인에 붙였다',
-        '대상 레인의 대상을 문서 템플릿의 대상 카드로 옮겼다 (대상 행으로, 또는 다른 대상의 속성으로)'])
+        '사건마다 등장하는 대상 객체를 대상 객체 레인에 붙였다',
+        '대상 객체 레인의 대상 객체를 문서 템플릿의 대상 객체 카드로 옮겼다 (대상 객체 행으로, 또는 다른 대상 객체의 속성으로)'])
     py = cy + 30
     pal = [s.rect(RX, py, RW, H - py - 40, fill=LIGHT, stroke=LINE, sw=2, rx=0),
            s.text(RX + 24, py + 46, '복사해서 쓰는 카드', 22, DEEP, 700),
@@ -163,18 +168,19 @@ def event_board():
     s.g('복사용 카드 영역', pal)
 
     def tag(x, y, label):
-        return [s.rect(x, y, 64, 30, fill=DEEP, stroke='none', sw=0, rx=4), s.text(x + 32, y + 21, label, 15, PAPER, 700, 'middle')]
+        w = tw(label, 15) + 24
+        return [s.rect(x, y, w, 30, fill=DEEP, stroke='none', sw=0, rx=4), s.text(x + w / 2, y + 21, label, 15, PAPER, 700, 'middle')]
     cx, cyy = RX + 40, py + 120
     s.g('사건 카드 견본', [s.rect(cx, cyy, 360, 110, fill=PAPER, stroke=INK, sw=2, rx=6)] + tag(cx + 14, cyy + 14, '사건') +
         [s.text(cx + 18, cyy + 84, '○○가 기록됨', 22, INK)])
-    s.g('대상 카드 견본', [s.rect(cx + 420, cyy, 170, 170, fill=PAPER, stroke=INK, sw=4, rx=6)] + tag(cx + 434, cyy + 14, '대상') +
-        [s.text(cx + 438, cyy + 110, '대상 이름', 22, INK)])
+    s.g('대상 객체 카드 견본', [s.rect(cx + 410, cyy, 200, 200, fill=PAPER, stroke=INK, sw=4, rx=6)] + tag(cx + 424, cyy + 14, '대상 객체') +
+        [s.text(cx + 428, cyy + 120, '대상 객체 이름', 22, INK)])
     qx, qy = cx, cyy + 220
     s.g('질문 카드 견본', [s.rect(qx, qy, 300, 150, fill=PAPER, stroke=INK, sw=2, rx=6, dash='8 6'),
                            f'<path d="M {qx + 236} {qy} L {qx + 294} {qy} Q {qx + 300} {qy} {qx + 300} {qy + 6} L {qx + 300} {qy + 64} Z" fill="{DEEP}"/>',
                            s.text(qx + 284, qy + 30, '?', 24, PAPER, 700, 'middle')] + tag(qx + 14, qy + 14, '질문') +
         [s.text(qx + 18, qy + 100, '아직 모르는 것', 22, INK)])
-    s.g('카드 구분 안내', [s.text(cx, qy + 210, '사건 = 가로로 긴 직사각형 · 대상 = 정사각형(굵은 테두리)', 16, HINT),
+    s.g('카드 구분 안내', [s.text(cx, qy + 210, '사건 = 가로로 긴 직사각형 · 대상 객체 = 정사각형(굵은 테두리)', 16, HINT),
                           s.text(cx, qy + 240, '질문 = 점선 테두리 + 모서리 "?" · 색 없이도 모양과 라벨로 구분됩니다', 16, HINT)])
     s.save('01-event-board.svg')
 

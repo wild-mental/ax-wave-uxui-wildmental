@@ -43,7 +43,7 @@
 | 교재 | 가이드 |
 |---|---|
 | 2.2 · 2.4 | [이벤트 보드 사용 가이드](guides/event-board-guide.md) |
-| 2.5 | [대상 카드 작성 가이드](guides/object-card-guide.md) |
+| 2.5 | [대상 객체 카드 작성 가이드](guides/object-card-guide.md) |
 | 2.6 | [용어 대조표 작성 가이드](guides/term-matching-guide.md) |
 | 2.7 | [진입점 선택표 작성 가이드](guides/entry-point-guide.md) |
 | 2.8 | [서비스 구조 설명서 작성 가이드](guides/service-structure-guide.md) |
