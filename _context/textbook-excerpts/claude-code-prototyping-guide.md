@@ -2,7 +2,7 @@
 
 > 인쇄본 원고(`docs/4-1/manuscript/part-3.md`)에서 이 가이드를 가리키는 부분을 그대로 옮겼습니다. 생성: `_context/gen_placeholders.py` (2026-11-04 원고 기준). 원고가 바뀌면 다시 뽑습니다.
 
-### 교재 위치: part-3.md 516~533행 (절: 3.6 Claude Code로 테마별 첫 프로토타입 만들기)
+### 교재 위치: part-3.md 517~534행 (절: 3.6 Claude Code로 테마별 첫 프로토타입 만들기)
 
 > | 버전 | 버전 이름 | 첫 프로토타입 · 밝은 코칭형 |
 > | 파일 경로 | 작업 폴더 안의 파일 위치 | axyourbody-prototype/prototype-first-bright-coaching.html |
@@ -13,7 +13,7 @@
 > | 다음에 할 일 | 다음 버전에서 고칠 것 | 통합 때 몸무게 변화는 단정한 기본형에서 가져오기 |
 >
 > → 온라인 가이드: 「Claude Code 프로토타이핑 따라 하기」
-> → 도구 조작: 부록 A-5
+> → 도구 조작: 부록 A-5, A-2(워크시트 저장소)
 
 > [요약]
 > Claude Code는 작업 폴더의 파일을 직접 읽고 만들고 고치므로, context·design·data 폴더에 재료를 먼저 정리합니다.
