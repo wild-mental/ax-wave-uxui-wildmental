@@ -2,7 +2,7 @@
 
 > 인쇄본 원고(`docs/4-1/manuscript/part-3.md`)에서 이 가이드를 가리키는 부분을 그대로 옮겼습니다. 생성: `_context/gen_placeholders.py` (2026-11-04 원고 기준). 원고가 바뀌면 다시 뽑습니다.
 
-### 교재 위치: part-3.md 518~535행 (절: 3.6 Claude Code로 테마별 첫 프로토타입 만들기)
+### 교재 위치: part-3.md 516~533행 (절: 3.6 Claude Code로 테마별 첫 프로토타입 만들기)
 
 > | 버전 | 버전 이름 | 첫 프로토타입 · 밝은 코칭형 |
 > | 파일 경로 | 작업 폴더 안의 파일 위치 | axyourbody-prototype/prototype-first-bright-coaching.html |
