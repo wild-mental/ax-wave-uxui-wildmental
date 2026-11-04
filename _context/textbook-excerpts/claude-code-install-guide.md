@@ -1,0 +1,45 @@
+# 교재 원문 발췌 — 「Claude Code 데스크톱 앱 설치 (Mac판 · Windows판)」
+
+> 인쇄본 원고(`docs/4-1/manuscript/appendix-a-tools.md`)에서 이 가이드를 가리키는 부분을 그대로 옮겼습니다. 생성: `_context/gen_placeholders.py` (2026-11-04 원고 기준). 원고가 바뀌면 다시 뽑습니다.
+
+## A-5 · Claude Code 데스크톱 앱
+
+→ 온라인 가이드: 「Claude Code 데스크톱 앱 설치 (Mac판 · Windows판)」
+
+설치와 로그인
+1. Claude 공식 다운로드 페이지에서 자기 운영체제(Mac 또는 Windows)용 데스크톱 앱을 내려받아 설치합니다.
+2. 앱을 열고 Claude 계정으로 로그인합니다. 계정 준비는 사전 안내를 따릅니다. 유료 플랜이 없다면 교재 앞부분 「쓰는 도구」의 안내대로 다른 AI 코딩 도구를 씁니다.
+3. 앱에서 코드 작업(Claude Code) 화면으로 들어갈 수 있는지 확인합니다.
+
+작업 폴더 만들기
+1. 바탕화면이나 문서 폴더에 `axyourbody-prototype` 폴더를 만듭니다.
+2. 그 안에 `context`, `design`, `data` 폴더를 만들고 재료를 넣습니다. 프로토타입 파일은 Claude Code가 폴더 맨 위에 만듭니다. 아래 `calm-record-board`, `sport-brand`는 박준혁 프로필로 실습한 예의 테마 이름입니다. 여러분은 DESIGN.md 쇼핑 목록에 붙인 테마 이름(영문 소문자와 하이픈)을 씁니다.
+   ```
+   axyourbody-prototype/
+   ├── context/
+   │   ├── service-structure.md   ← Part 2의 서비스 구조 설명서
+   │   └── screen-flow.md         ← Part 3의 화면 흐름 순서표·화면 목록·상태 화면 목록
+   ├── design/
+   │   ├── DESIGN-calm-record-board.md   ← 쇼핑 목록의 테마 이름
+   │   └── DESIGN-sport-brand.md
+   ├── data/                      ← 고른 프로필의 CSV 4개 (또는 내 기록)
+   ├── prototype-first-calm-record-board.html   ← Part 3에서 만드는 파일
+   ├── prototype-first-sport-brand.html
+   ├── prototype-merged.html      ← Part 4에서 만드는 파일 (아래로 차례대로)
+   ├── prototype-improved.html
+   ├── brand-resources.html
+   ├── prototype-final.html
+   ├── my-own-DESIGN.md
+   └── deploy/                    ← index.html + favicon.svg 만
+   ```
+3. Claude Code에서 이 폴더를 **작업 폴더로 열어** 줍니다. Claude Code는 이 폴더 안의 파일만 읽고 씁니다.
+
+지시하고 확인하기
+1. 지시문 킷의 「서비스 구조를 넘기고 첫 프로토타입을 만드는 지시문」부터 순서대로 붙여 넣습니다. 파일을 가리킬 때는 `@context/service-structure.md`처럼 `@`와 파일 경로를 씁니다.
+2. Claude Code가 파일을 만들거나 고치기 전에 허락을 물으면 내용을 읽고 승인합니다. 작업 폴더 밖의 파일을 고치겠다고 하면 거절합니다.
+3. 만들어진 HTML 파일을 더블클릭해 브라우저로 열고 직접 눌러 봅니다.
+4. 이상한 점을 발견하면 "무엇이, 어디서, 어떻게 이상한지" 한 문장으로 다시 지시합니다.
+
+막혔을 때
+- 결과가 지시와 다르면, 원하는 결과를 한 문장으로 다시 쓰고 "먼저 무엇을 바꿀지 목록으로 보여 주고, 내가 승인하면 고쳐 줘"라고 덧붙입니다.
+- 파일이 망가졌다면 「테마별로 만든 첫 프로토타입과 버전 기록」에 적어 둔 직전 버전 파일로 돌아갑니다. 단계마다 새 파일로 저장하고 큰 변경 전에 복사본을 만들어 두었다면 언제든 돌아갈 수 있습니다.

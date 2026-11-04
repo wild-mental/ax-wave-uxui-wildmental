@@ -1,0 +1,191 @@
+[
+ {
+  "slug": "claude-start-guide",
+  "title": "Claude 시작 가이드",
+  "loc": "부록 A-1 · Claude (웹·데스크톱 앱) · Day 1~4",
+  "type": "T",
+  "pri": "P0"
+ },
+ {
+  "slug": "github-worksheet-repo-guide",
+  "title": "GitHub 워크시트 저장소 가이드",
+  "loc": "부록 A-2 · GitHub 워크시트 저장소 · Day 1~4",
+  "type": "T",
+  "pri": "P0"
+ },
+ {
+  "slug": "figma-template-guide",
+  "title": "Figma 템플릿 만들기 가이드",
+  "loc": "부록 A-3 · Figma · Day 2~3",
+  "type": "T",
+  "pri": "P0"
+ },
+ {
+  "slug": "stitch-start-guide",
+  "title": "Stitch 시작 가이드",
+  "loc": "부록 A-4 · Google Stitch · Day 3",
+  "type": "T",
+  "pri": "P0"
+ },
+ {
+  "slug": "claude-code-install-guide",
+  "title": "Claude Code 데스크톱 앱 설치 (Mac판 · Windows판)",
+  "loc": "부록 A-5 · Claude Code 데스크톱 앱 · Day 3~4 (설치는 수업 전)",
+  "type": "T",
+  "pri": "P0"
+ },
+ {
+  "slug": "github-pages-deploy-guide",
+  "title": "GitHub Pages 정적 배포 가이드",
+  "loc": "부록 A-6 · GitHub Pages 정적 배포 · Day 4",
+  "type": "T",
+  "pri": "P1"
+ },
+ {
+  "slug": "case-analysis-sheet-guide",
+  "title": "사례 분석 시트 가이드",
+  "loc": "Part 1 · 2절 UX와 UI는 무엇이 다른가",
+  "type": "W",
+  "pri": "P2"
+ },
+ {
+  "slug": "task-pain-list-guide",
+  "title": "과업·불편 목록 가이드",
+  "loc": "Part 1 · 4절(머리칸), 5절(본표)",
+  "type": "W",
+  "pri": "P1"
+ },
+ {
+  "slug": "persona-card-guide",
+  "title": "페르소나 카드 가이드",
+  "loc": "Part 1 · 6절",
+  "type": "W",
+  "pri": "P2"
+ },
+ {
+  "slug": "event-board-guide",
+  "title": "이벤트 보드 사용 가이드",
+  "loc": "Part 2 · 2-2, 2-4",
+  "type": "W",
+  "pri": "P1"
+ },
+ {
+  "slug": "object-card-guide",
+  "title": "대상 카드 작성 가이드",
+  "loc": "Part 2 · 2-5",
+  "type": "W",
+  "pri": "P2"
+ },
+ {
+  "slug": "term-matching-guide",
+  "title": "용어 대조표 작성 가이드",
+  "loc": "Part 2 · 2-6",
+  "type": "W",
+  "pri": "P2"
+ },
+ {
+  "slug": "entry-point-guide",
+  "title": "진입점 선택표 작성 가이드",
+  "loc": "Part 2 · 2-7",
+  "type": "W",
+  "pri": "P2"
+ },
+ {
+  "slug": "service-structure-guide",
+  "title": "서비스 구조 설명서 작성 가이드",
+  "loc": "Part 2 · 2-8",
+  "type": "W",
+  "pri": "P1"
+ },
+ {
+  "slug": "peer-review-guide",
+  "title": "동료 리뷰 진행 가이드",
+  "loc": "Part 2 · 2-9",
+  "type": "F",
+  "pri": "P2"
+ },
+ {
+  "slug": "screen-flow-guide",
+  "title": "화면 흐름 순서표 작성 가이드",
+  "loc": "Part 3 · 3.2",
+  "type": "W",
+  "pri": "P1"
+ },
+ {
+  "slug": "design-shopping-guide",
+  "title": "디자인 쇼핑처 둘러보기 가이드",
+  "loc": "Part 3 · 3.4 디자인 쇼핑으로 DESIGN.md 2~3종 고르기 (본문 1곳 + 실습 안내 1곳)",
+  "type": "R",
+  "pri": "P1"
+ },
+ {
+  "slug": "stitch-draft-guide",
+  "title": "Stitch 시안 만들기 가이드",
+  "loc": "Part 3 · 3.5 Stitch로 테마별 시안 비교하기",
+  "type": "P",
+  "pri": "P1"
+ },
+ {
+  "slug": "claude-code-prototyping-guide",
+  "title": "Claude Code 프로토타이핑 따라 하기",
+  "loc": "Part 3 · 3.6 Claude Code로 테마별 첫 프로토타입 만들기",
+  "type": "P",
+  "pri": "P1"
+ },
+ {
+  "slug": "ai-trust-design-examples",
+  "title": "AI 판단 화면 신뢰 설계 예시 모음",
+  "loc": "Part 3 · 3.7 AI 판단 화면의 신뢰 설계",
+  "type": "R",
+  "pri": "P2"
+ },
+ {
+  "slug": "version-merge-guide",
+  "title": "여러 버전 통합 가이드",
+  "loc": "Part 4 · 4.2 여러 버전 조합하기",
+  "type": "P",
+  "pri": "P1"
+ },
+ {
+  "slug": "design-skill-guide",
+  "title": "디자인 스킬 가져오기 가이드",
+  "loc": "Part 4 · 4.3 외부 디자인 요소로 보강하기",
+  "type": "P",
+  "pri": "P1"
+ },
+ {
+  "slug": "pair-usability-test-guide",
+  "title": "짝 사용성 테스트 진행 가이드",
+  "loc": "Part 4 · 4.4 사용성 점검: 과업으로 시험하고 고치기",
+  "type": "F",
+  "pri": "P1"
+ },
+ {
+  "slug": "favicon-color-sample-guide",
+  "title": "파비콘·컬러 샘플 가이드",
+  "loc": "Part 4 · 4.5 리소스 마무리: 파비콘·컬러 샘플·흑백 점검",
+  "type": "P",
+  "pri": "P2"
+ },
+ {
+  "slug": "my-own-design-md-guide",
+  "title": "나만의 DESIGN.md 만들기 가이드",
+  "loc": "Part 4 · 4.6 나만의 DESIGN.md 만들기",
+  "type": "P",
+  "pri": "P1"
+ },
+ {
+  "slug": "pre-deploy-check-guide",
+  "title": "배포 전 점검과 정적 배포 가이드",
+  "loc": "Part 4 · 4.7 정적 배포: 공개하기 전에 지우기",
+  "type": "P",
+  "pri": "P1"
+ },
+ {
+  "slug": "presentation-review-guide",
+  "title": "발표·동료 리뷰 진행 가이드",
+  "loc": "Part 4 · 4.8 발표·동료 리뷰와 4일 회고",
+  "type": "F",
+  "pri": "P2"
+ }
+]
