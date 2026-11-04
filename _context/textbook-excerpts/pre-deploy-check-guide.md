@@ -11,10 +11,10 @@
 > 배포를 준비하려고 해. 아직 아무것도 고치거나 올리지 말고 점검만 해 줘.
 > 1. 이 폴더의 모든 파일에서 개인정보 후보를 표로 보여 줘: 실명, 이메일, 전화번호, 생년월일,
 >    사진, 실제 신체 수치로 보이는 값, HTML 주석과 숨긴 요소 안의 메모, 문서·Figma 링크.
-> 2. prototype-final.html 의 수치가 모두 가상 프로필 데이터(f-athlete 폴더 CSV)와 일치하는지
+> 2. prototype-final.html 의 수치가 모두 data 폴더의 가상 프로필 데이터(f-athlete CSV)와 일치하는지
 >    대조해서, 일치하지 않는 값은 따로 표시해 줘.
 > 내가 확인하고 "고쳐"라고 하면 그때 후보를 지우거나 가상 값으로 바꾸고,
-> deploy 폴더를 새로 만들어 prototype-final.html 을 index.html 로, 파비콘 SVG와 함께 넣어 줘.
+> deploy 폴더를 새로 만들어 prototype-final.html 을 index.html 로, 고른 파비콘을 favicon.svg 로 넣고 index.html 이 favicon.svg 를 쓰게 해 줘.
 > CSV, 워크시트, DESIGN.md 문서들(my-own-DESIGN.md 포함), 대화 기록은 넣지 말고,
 > 페이지 맨 아래에 "모든 이름과 수치는 가상 프로필 데이터입니다"를 넣어 줘.
 > ```

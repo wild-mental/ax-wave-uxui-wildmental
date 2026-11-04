@@ -186,10 +186,10 @@ prototype-first-{첫 테마이름}.html 은 고치지 마.
 ## 컬러 샘플·파비콘·흑백 보기 리소스 추출 지시문
 
 ```
-기존 파일은 고치지 말고 brand-resources.html 을 새로 만들어 줘.
+brand-resources.html 을 새로 만들고, prototype-improved.html 에는 3번의 흑백 보기 버튼만 추가해 줘. 다른 파일과 다른 영역은 고치지 마.
 1. 컬러 샘플: {비교할 파일들, 예: prototype-first-calm-record-board.html, prototype-first-sport-brand.html, prototype-improved.html}에서 실제로 쓰인 배경색·글자색·강조색·선 색을 파일별로 나란히 보여 줘.
 2. 파비콘 후보: 서비스 이름 AX YOUR BODY에 어울리는 단순한 아이콘을 SVG로 3가지.
-3. 흑백 보기: prototype-improved.html 을 흑백으로 보이게 한 화면 — 색이 빠져도 상태와 위계가 구분되는지 볼 수 있게.
+3. 흑백 보기: prototype-improved.html 에 "흑백으로 보기" 버튼을 추가해 누르면 회색조, 한 번 더 누르면 원래대로 — 색이 빠져도 상태와 위계가 구분되는지 볼 수 있게.
 ```
 
 결과를 보고 기본 색 하나와 파비콘 하나를 고릅니다. 고른 값은 버전 기록의 개선 프로토타입 행 "다음에 할 일"에 적어 테마 일체감 통합 지시문에서 씁니다.

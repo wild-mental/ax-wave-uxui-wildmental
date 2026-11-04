@@ -10,7 +10,7 @@
 > ```text
 > [테마 일체감 통합 지시문]
 > prototype-improved.html 은 여러 테마를 합쳐서 색·글꼴·모서리·그림자·간격이 섞여 있어.
-> DESIGN-calm-record-board.md 하나만 기준으로 하나의 테마로 맞춘 새 파일 prototype-final.html 을 만들어 줘.
+> @design/DESIGN-calm-record-board.md 하나만 기준으로 하나의 테마로 맞춘 새 파일 prototype-final.html 을 만들어 줘.
 > - 배치·콘텐츠·화면 문구는 그대로 두고 보이는 스타일만 바꿔. 강조색은 #2F5D50.
 > - 같은 역할의 영역은 같은 모양으로 맞춰(판단 카드끼리, 기록 카드끼리, 수치 카드끼리).
 > - 흑백 보기에서 고친 라벨·기호·무늬는 지우지 마.
