@@ -8,6 +8,7 @@
   - **Figma:** 내 Figma 파일의 그 페이지를 엽니다.
   - **킷:** 지시문 킷에서 그 지시문을 복사합니다.
 - 도구 화면은 자주 바뀝니다. 교재의 부록 A로 흐름을 잡고, 실제 버튼 위치는 여기서 확인하세요.
+- 실습 중에 막히면 [막혔을 때 모음](help/stuck-guide.md)부터 보세요.
 
 ## 수업 전에
 
@@ -81,6 +82,14 @@
 | 92 | 4.7 | [배포 전 점검과 정적 배포 가이드](guides/pre-deploy-check-guide.md) | [킷](kits/claude-code-prompts.md) 「배포 전 개인정보 점검·정적 배포 준비 지시문」 · [문서](https://github.com/wild-mental/ax-wave-uxui-wildmental/blob/main/worksheet-template/worksheet.md) 「공개 전 개인정보·품질을 확인한 배포 전 점검표와 배포 링크」 |
 | 93 | 4.8 | [발표·동료 리뷰 진행 가이드](guides/presentation-review-guide.md) | 내 배포 링크 · [문서](https://github.com/wild-mental/ax-wave-uxui-wildmental/blob/main/worksheet-template/worksheet.md) 「테마별로 만든 첫 프로토타입과 버전 기록」 |
 
+## 도움말
+
+| 무엇 | 언제 |
+|---|---|
+| [막혔을 때 모음](help/stuck-guide.md) | 실습 중에 막혔을 때. 도구별로 모은 해결법과 자세한 가이드 링크 |
+| [다른 AI 코딩 도구로 할 때 (OpenAI Codex · Cursor)](help/other-coding-tools.md) | Day 3~4에 Claude 사용 한도를 다 썼을 때 |
+| [Windows 사용자 메모](help/windows-notes.md) | Windows 노트북으로 실습할 때. 단축키·파일·설정 차이 |
+
 ## 수업 연락처
 
 | 무엇 | 연락처 |
@@ -94,3 +103,11 @@
 
 - 워크시트 저장소는 끝까지 **Private**으로 두고 강사 GitHub 아이디 `wild-mental`만 초대합니다. 배포는 따로 만드는 공개 저장소로만 합니다.
 - 이 자료실의 사람·수치·기록은 모두 수업을 위해 만든 **가상 데이터**입니다.
+
+## 가이드 고침 이력
+
+수업 중에 가이드를 고치면 여기에 날짜와 한 줄로 적습니다. 전에 본 가이드가 달라 보이면 여기부터 확인하세요.
+
+| 날짜 | 바뀐 것 |
+|---|---|
+| 2026-11-17 | 사전 안내와 온라인 가이드 27개, Part 1·2 지시문 킷, 도움말 3개를 올렸습니다. 첫 화면 표에 교재 쪽과 「함께 쓰는 자료」 열을 넣었습니다 |

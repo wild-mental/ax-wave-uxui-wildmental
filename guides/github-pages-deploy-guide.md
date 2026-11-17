@@ -20,6 +20,8 @@
 3. **Public**을 고릅니다. **Add a README file** 같은 선택 칸은 켜지 않고 그대로 둡니다.
 4. **Create repository**를 누릅니다.
 
+(선택) 이 저장소는 누구나 볼 수 있고, 올린 기록에 GitHub 계정 이메일이 남을 수 있습니다. 이메일을 드러내고 싶지 않다면 올리기 전에 github.com 오른쪽 위 프로필 사진 → **Settings → Emails**에서 **Keep my email addresses private**를 켭니다. 그다음부터 웹에서 올린 기록에는 GitHub가 만든 대신 주소가 남습니다.
+
 이렇게 보이면 정상: 빈 저장소 화면 가운데에 **uploading an existing file** 링크가 있는 안내 상자가 나옵니다.
 
 ## 2. 두 파일 올리기

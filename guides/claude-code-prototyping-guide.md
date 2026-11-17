@@ -80,7 +80,7 @@ axyourbody-prototype/
 
 ## 2단계 · 브라우저로 열어 확인
 
-**열기.** 파일 탐색기에서 `prototype-first-<테마이름>.html`을 더블클릭합니다. 브라우저 대신 편집기가 열리면 오른쪽 버튼 → 다음으로 열기(Mac) 또는 연결 프로그램(Windows)에서 Chrome, Safari, Edge 같은 브라우저를 고릅니다.
+**열기.** Finder(Windows는 파일 탐색기)에서 `prototype-first-<테마이름>.html`을 더블클릭합니다. 브라우저 대신 편집기가 열리면 오른쪽 버튼 → 다음으로 열기(Mac) 또는 연결 프로그램(Windows)에서 Chrome, Safari, Edge 같은 브라우저를 고릅니다.
 
 **확인 목록 네 가지**(교재 3.6 「확인」)를 이렇게 점검합니다. 발견한 문제는 고치기 전에 번호를 붙여 메모장에 먼저 모아 둡니다.
 

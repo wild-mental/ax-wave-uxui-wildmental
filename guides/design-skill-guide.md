@@ -56,7 +56,7 @@
 - 입력창에 `/`를 치면 목록에 스킬 이름이 보입니다. 안 보이면 새 대화를 열고 다시 봅니다.
 - SKILL.md 맨 위 `---` 두 줄 사이에 이름(name)과 설명(description)이 있고, 그 아래에 지시문이 있습니다.
 
-`.claude`처럼 점으로 시작하는 폴더는 숨은 폴더입니다. 직접 보려면 Mac Finder에서 `Cmd+Shift+.`을 누르고, Windows 파일 탐색기에서는 보기 → 표시 → 숨긴 항목을 켭니다. 또는 Claude Code에 "`.claude/skills` 폴더의 파일 목록과 SKILL.md 첫 10줄을 보여 줘. 고치지 마."라고 묻습니다.
+`.claude`처럼 점으로 시작하는 폴더는 Mac Finder에서 숨은 폴더라 `Cmd+Shift+.`을 눌러야 보입니다. Windows 파일 탐색기에서는 보통 그대로 보이고, 안 보이면 보기 → 표시 → 숨겨진 항목을 켭니다. 또는 Claude Code에 "`.claude/skills` 폴더의 파일 목록과 SKILL.md 첫 10줄을 보여 줘. 고치지 마."라고 묻습니다.
 
 ### 5. 적용 결과 확인
 
