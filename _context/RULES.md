@@ -48,7 +48,11 @@
 
 칸 이름·순서·완료 기준 체크리스트는 `worksheet-template/worksheet.md`(문서)와 `figma-template/README.md`(Figma)가 기준입니다.
 
-### 지시문 킷 (`kits/claude-code-prompts.md`)
+### 지시문 킷
+
+Part 1·2 (`kits/claude-prompts-part-1-2.md`, 원고에서 `_context/gen_part12_kit.py`로 생성 · 이름은 자료실에서 붙임): 사례 분석 메모 정리 지시문 · 과업 후보 넓히기 지시문 · 페르소나 카드 초안 지시문 · 흐름이 바뀌는 날 찾기 지시문 · 빠진 사건 찾기 지시문 · 대상 객체 카드 점검 지시문 · 서비스 구조 설명서 점검 지시문
+
+Part 3·4 (`kits/claude-code-prompts.md`, 인쇄본 이름):
 
 Stitch 테마별 시안 생성 지시문 · 서비스 구조를 넘기고 첫 프로토타입을 만드는 지시문 · 테마별 프로토타입 추가 생성 지시문 · 빈 상태·오류 등 상태 화면과 신뢰 요소 추가 지시문 · 여러 테마 버전 통합 지시문 · 외부 디자인 요소 보강 지시문 · 사용성 테스트 결과 반영 개선 지시문 · 컬러 샘플·파비콘·흑백 보기 리소스 추출 지시문 · 테마 일체감 통합 지시문 · 나만의 DESIGN.md 명세 추출 지시문 · 나만의 DESIGN.md 단독 문서 보강 지시문 · 배포 전 개인정보 점검·정적 배포 준비 지시문
 
@@ -69,6 +73,7 @@ axyourbody-prototype/
 └── deploy/                           ← index.html + favicon.svg 만
 ```
 
+- 복사본(큰 변경 전에 남기는 파일): `<원래 파일 이름>-before-<다음 작업>` 한 가지 형식만 씁니다. 교재 인쇄 예 `prototype-first-<테마이름>-before-states.html`(3.6) · `prototype-merged-before-skill.html`(4.3). 가이드에서 정한 것: `prototype-merged-before-leftover.html` · `prototype-improved-before-resources.html` · `my-own-DESIGN-before-standalone.md` · `prototype-final-before-deploy.html`. `-backup`·날짜 붙이기는 쓰지 않습니다. 복사본은 작업 폴더 맨 위에 두고 `deploy/`·컬러 샘플에 넣지 않습니다.
 - 버전 이름: 첫 프로토타입 · 통합 프로토타입 · 개선 프로토타입 · 최종 프로토타입 · 페르소나 카드 초안.
 - 테마 이름 예(교재에 인쇄된 것만): 김도현 예 `bright-coaching`(밝은 코칭형) · `neat-basic`(단정한 기본형) · `activity-record`(활동 기록형), 박준혁 예 `calm-record-board`(차분한 기록 보드) · `sport-brand`(스포츠 브랜드) · `clinic-report`(병원 리포트).
 - 과업 번호: "과업 1, 과업 2 …".
@@ -93,6 +98,10 @@ A-1 Claude · A-2 GitHub 워크시트 저장소 · A-3 Figma · A-4 Google Stitc
 ### 사용성 원칙 7가지 (교재 4.4절의 쉬운 이름)
 
 지금 무슨 일이 일어나는지 보여 준다 · 사용자의 말을 쓴다 · 언제든 되돌리고 빠져나갈 수 있다 · 같은 것은 같게 보인다 · 실수하기 전에 막고, 빈틈을 안내한다 · 외우게 하지 말고 보고 고르게 한다 · AI 판단의 근거와 한계가 보인다
+
+### 첫 화면 = 교재 매칭표 (grip T66)
+
+`README.md`가 학생이 보는 교재↔자료실 매칭표입니다. 표마다 교재 쪽 열을 두고, 가이드 표에는 「함께 쓰는 자료」(문서 · Figma · 킷과 인쇄본 이름)를 적습니다. 별도의 공개 매칭 페이지는 만들지 않습니다(목록은 첫 화면 한 곳). 가이드·자료·지시문을 더하거나 교재 쪽이 바뀌면 `README.md`와 강사용 `_context/TEXTBOOK_HUB_MAP.md`(상태 추적용)를 같은 커밋에서 고칩니다.
 
 ## 5. 코드 이름 금지 (T41)
 

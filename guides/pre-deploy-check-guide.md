@@ -15,7 +15,7 @@
 
 ## 0. 시작 전: 복사본 만들기
 
-`prototype-final.html`을 고치기 전에 복사본을 만들어 둡니다. Claude Code에 "prototype-final.html 을 고치지 말고 같은 폴더에 prototype-final-backup.html 로 복사해 줘"라고 보내거나, Finder에서 `Cmd+D`(Windows 파일 탐색기에서 `Ctrl+C` → `Ctrl+V`)로 복제합니다. 수정이 잘못되면 이 파일로 돌아갑니다. 복사본은 작업 폴더 맨 위에 두고 `deploy`에는 넣지 않습니다.
+`prototype-final.html`을 고치기 전에 복사본을 만들어 둡니다. Claude Code에 "prototype-final.html 을 고치지 말고 같은 폴더에 prototype-final-before-deploy.html 로 복사해 줘"라고 보내거나, Finder에서 `Cmd+D`(Windows 파일 탐색기에서 `Ctrl+C` → `Ctrl+V`)로 복제한 뒤, 생긴 사본의 이름을 `prototype-final-before-deploy.html`로 고칩니다. 수정이 잘못되면 이 파일로 돌아갑니다. 복사본은 작업 폴더 맨 위에 두고 `deploy`에는 넣지 않습니다.
 
 ## 1. 지시: 점검만 하기
 

@@ -20,4 +20,5 @@ for src, dst in [('01-common-prd.md', 'common-prd.md'), ('02-profiles.md', 'prof
     open(f'{out}/{dst}', 'w', encoding='utf-8').write(head + '\n\n' + note + body.lstrip('\n'))
 PY
 python3 "$HERE/_context/gen_placeholders.py"
+python3 "$HERE/_context/gen_part12_kit.py"
 echo "사본과 교재 원문 발췌를 다시 만들었습니다. git diff 로 바뀐 곳을 확인하세요."
