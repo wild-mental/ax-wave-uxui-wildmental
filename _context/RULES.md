@@ -63,6 +63,7 @@ axyourbody-prototype/
 ├── context/service-structure.md      ← 서비스 구조 설명서
 ├── context/screen-flow.md            ← 화면 흐름 순서표·화면 목록·상태 화면 목록
 ├── design/DESIGN-<테마이름>.md        ← 쇼핑 목록의 테마 이름 (영문 소문자·하이픈)
+├── design/skill-<스킬이름>.md         ← (필요할 때만) 다른 도구용·`/` 목록에 안 보일 때 저장하는 스킬 지시문 (grip T57)
 ├── data/                             ← 고른 프로필의 CSV 4개
 ├── prototype-first-<테마이름>.html     ← Day 3 테마별 첫 프로토타입
 ├── prototype-merged.html             ← 통합 프로토타입
@@ -70,6 +71,7 @@ axyourbody-prototype/
 ├── brand-resources.html              ← 컬러 샘플·파비콘 후보·흑백 보기
 ├── prototype-final.html              ← 최종 프로토타입
 ├── my-own-DESIGN.md                  ← 나만의 DESIGN.md
+├── favicon.svg                       ← 4.5에서 고른 파비콘 (4.6 통합에 쓰고 4.7에서 deploy/로 복사, grip T57)
 └── deploy/                           ← index.html + favicon.svg 만
 ```
 
@@ -116,6 +118,7 @@ W01~W14, K01~K12 같은 번호, v1·v2·v1-b 같은 버전 기호, 테마 기호
 - 표준 마크다운(GitHub 표·체크리스트 포함). HTML은 쓰지 않습니다(자리표시의 작성자용 주석 한 줄만 예외, 본문을 쓰면 지움).
 - 이미지는 `guides/images/<가이드 파일 이름>-<번호>.png`에 두고 `![설명](images/…)`로 연결합니다. Mac·Windows 화면은 같은 단계에 나란히(표 두 칸 또는 연속 두 장).
 - 화면 녹화(동영상·GIF)는 만들지 않습니다.
+- 캡처는 꼭 필요한 곳에만 둡니다(grip T58): 아이콘만 있거나 메뉴 속에 숨어 글로 찾기 어려운 버튼·선택, 예시 모음의 대표 예시. AI가 만든 결과·비교 화면, 폴더 창, 답변 화면, 글자로 이름이 적힌 버튼은 찍지 않고 글로 씁니다. 같은 화면이 두 가이드에 필요하면 한 곳에만 두고 다른 곳은 그 가이드를 가리킵니다.
 - 도구 조작 가이드(A-1~A-6)와 디자인 쇼핑처 가이드는 맨 아래에 "화면 확인 날짜: YYYY-MM-DD"를 적습니다.
 
 ## 8. 점검 명령

@@ -16,8 +16,6 @@
 2. **새 저장소.** 로그인한 뒤 오른쪽 위 **+** 단추 → **New repository**를 누릅니다.
 3. **이름과 공개 범위.** Repository name에 `axyourbody-worksheet`를 씁니다. 공개 범위(visibility) 선택에서 **Private**을 고릅니다. README 추가 같은 선택 항목은 건드리지 않고 **Create repository**를 누릅니다.
 
-> [캡처 예정] 공통: New repository 화면에서 이름 칸과 Private 선택 위치
-
 4. **원본 복사.** 새 탭에서 위의 워크시트 문서 원본 링크를 엽니다. 파일 내용 위쪽 막대 오른쪽의 **Copy raw file**(네모 두 개가 겹친 복사 아이콘)을 누릅니다. 화면에는 변화가 없어도 전체가 복사된 것입니다.
 
 > [캡처 예정] 공통: worksheet.md 원본 화면의 Raw · Copy raw file · Download raw file 아이콘 위치
@@ -25,8 +23,6 @@
 5. **파일 만들기.** 내 저장소 탭으로 돌아와 빈 저장소 안내 문구의 **creating a new file** 링크를 누릅니다. 위쪽 이름 칸에 `worksheet.md`를 쓰고, 아래 편집 칸을 한 번 누른 뒤 `Cmd+V`(Windows `Ctrl+V`)로 붙여 넣습니다.
 6. **저장.** 오른쪽 위 **Commit changes...** → 뜨는 상자에서 **Commit changes**를 누릅니다.
 7. **강사 초대.** 저장소 위쪽 탭의 **Settings** → 왼쪽 메뉴 Access 아래 **Collaborators** → **Add people**을 누릅니다. 검색 칸에 `wild-mental`을 쓰고, 목록에서 아이디가 정확히 `wild-mental`인 항목을 고른 뒤 **Add wild-mental to this repository**를 누릅니다. 비밀번호나 인증을 다시 물으면 입력합니다.
-
-> [캡처 예정] 공통: Settings → Collaborators 화면의 Add people 단추와 초대 후 Pending invite 표시
 
 초대한 뒤 목록에 `wild-mental`이 **Pending invite**(수락 대기)로 보이면 여러분이 할 일은 끝났습니다. 강사가 수락하면 대기 표시가 사라집니다.
 
@@ -36,8 +32,6 @@
 2. 칸을 채웁니다. 원하는 워크시트 제목은 `Cmd+F`(Windows `Ctrl+F`)로 찾습니다.
 3. 편집 칸 위의 **Preview** 탭을 눌러 표가 칸에 맞게 보이는지 확인하고, **Edit** 탭으로 돌아와 고칩니다.
 4. **Commit changes...** → **Commit changes**로 저장합니다. 저장하지 않고 탭을 닫으면 쓴 내용이 사라지므로, 한 워크시트를 마칠 때마다 저장합니다.
-
-> [캡처 예정] 공통: 편집 화면의 Edit · Preview 탭과 Commit changes 단추 위치
 
 ### 표·체크리스트 쓰는 규칙 한눈에
 
@@ -66,8 +60,6 @@
 ## 지난 내용 되돌려 보기
 
 `worksheet.md` 화면 오른쪽 위의 **History**(시계 아이콘)를 누르면 저장(Commit)한 순서대로 목록이 나옵니다. 하나를 누르면 그때 무엇을 고쳤는지 빨간 줄(지운 것)과 초록 줄(더한 것)로 보입니다. 지운 내용을 살리려면 그 화면에서 지워진 글을 복사해 지금 파일의 편집 화면에 다시 붙여 넣고 저장합니다. 그래서 한 워크시트를 끝낼 때마다 저장해 두면 언제든 돌아갈 수 있습니다.
-
-> [캡처 예정] 공통: History 단추 위치와 저장 이력 목록
 
 ## 자주 하는 실수와 고친 예
 

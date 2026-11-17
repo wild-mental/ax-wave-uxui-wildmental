@@ -20,8 +20,6 @@
 3. **Public**을 고릅니다. **Add a README file** 같은 선택 칸은 켜지 않고 그대로 둡니다.
 4. **Create repository**를 누릅니다.
 
-> [캡처 예정] 공통: New repository 화면(저장소 이름 · Public 선택 · Create repository 버튼)
-
 이렇게 보이면 정상: 빈 저장소 화면 가운데에 **uploading an existing file** 링크가 있는 안내 상자가 나옵니다.
 
 ## 2. 두 파일 올리기
@@ -34,8 +32,6 @@
 | Finder에서 `deploy` 폴더를 열고 `Cmd`를 누른 채 두 파일을 눌러 고른 뒤 끌어다 놓습니다 | 파일 탐색기에서 `deploy` 폴더를 열고 `Ctrl`을 누른 채 두 파일을 눌러 고른 뒤 끌어다 놓습니다 |
 
 3. 아래로 내려 **Commit changes**를 누릅니다.
-
-> [캡처 예정] Mac · Windows: 두 파일을 끌어다 놓은 업로드 화면(파일 이름 두 줄이 보임)
 
 이렇게 보이면 정상: 저장소 첫 화면의 파일 목록이 `favicon.svg`, `index.html` 두 줄입니다. `deploy`라는 폴더가 보이면 폴더째 올린 것입니다. 「막혔을 때」의 404 항목대로 고칩니다.
 
@@ -54,10 +50,6 @@
 2. 맨 위에 "Your site is live at"과 함께 `https://아이디.github.io/axyourbody/` 형식의 주소, **Visit site** 버튼이 나오면 배포가 끝난 것입니다.
 3. 주소가 아직 안 나오면 저장소 위쪽의 **Actions** 탭을 엽니다. "pages build and deployment" 줄 앞이 노란 원이면 진행 중, 초록 체크면 끝, 빨간 X면 실패입니다.
 
-> [캡처 예정] 공통: Settings → Pages 맨 위의 공개 주소와 Visit site 버튼
-
-> [캡처 예정] 공통: Actions 탭의 초록 체크 표시
-
 ## 5. 직접 열어 확인하고 기록하기
 
 - **시크릿 창**(Chrome · Edge · Safari 모두 Mac `Cmd+Shift+N`, Windows `Ctrl+Shift+N`)으로 공개 주소를 엽니다. 로그인하지 않은 다른 사람이 보는 화면과 같습니다.
@@ -65,8 +57,6 @@
 - 핵심 과업을 처음부터 끝까지 눌러 보고, 탭에 파비콘이 보이는지 봅니다.
 - 휴대폰으로도 엽니다. 주소를 직접 치기 번거로우면 나에게 메시지로 보내 엽니다.
 - 주소를 배포 전 점검표의 "배포 후 재확인" 행과 버전 기록 아래 "배포 링크"에 적습니다.
-
-> [캡처 예정] 공통: 휴대폰에서 연 공개 주소(가상 프로필 데이터 화면)
 
 ## 6. 고쳐서 다시 올리기
 
@@ -78,8 +68,6 @@
 
 - **개인정보가 없는 파일을 하나 더 올렸다** → 그 파일을 눌러 열고, 오른쪽 위 `···` 메뉴의 **Delete file** → **Commit changes**로 지웁니다.
 - **개인정보가 담긴 파일을 올렸다** → 지워도 고친 이력에 남습니다. **Settings** 맨 아래 **Danger Zone**의 **Delete this repository**로 저장소를 통째로 지우고, 점검을 다시 한 뒤 새 저장소를 만듭니다.
-
-> [캡처 예정] 공통: Settings 맨 아래 Danger Zone의 Delete this repository
 
 ## 워크시트 저장소와 헷갈리지 않기
 
