@@ -69,16 +69,16 @@
 
 유형: **T** 도구 조작 · **W** 워크시트 작성 · **P** 실습 따라 하기 · **F** 진행 · **R** 참고 모음 (§4).
 우선: **P0** 사전 안내와 함께(11/17) · **P1** 그날 아침까지 표준 수준 · **P2** 그날까지 최소 수준, 이후 보강.
-상태: 작성(표준 수준 초고 완료) · 자리표시(목차 초안·작성 계획만).
+상태: 작성(표준 수준 초고 완료) · 초안(본문 완료, 캡처·실제 화면 확인 전, 2026-11-17) · 자리표시(목차 초안·작성 계획만).
 
 | # | 가이드 이름 (인쇄본 그대로) | 파일 (`guides/`) | 쓰는 곳 | 유형 | 우선 | 상태 |
 |---|---|---|---|---|---|---|
-| 1 | Claude 시작 가이드 | `claude-start-guide.md` | 부록 A-1 · Day 1~4 | T | P0 | 자리표시 |
-| 2 | GitHub 워크시트 저장소 가이드 | `github-worksheet-repo-guide.md` | 부록 A-2 · Day 1~4 | T | P0 | 자리표시 |
-| 3 | Figma 템플릿 열기·복제 가이드 | `figma-template-guide.md` | 부록 A-3 · Day 2~3 | T | P0 | 자리표시 |
-| 4 | Stitch 시작 가이드 | `stitch-start-guide.md` | 부록 A-4 · Day 3 | T | P0 | 자리표시 |
-| 5 | Claude Code 데스크톱 앱 설치 (Mac판 · Windows판) | `claude-code-install-guide.md` | 부록 A-5 · Day 3~4 | T | P0 | 자리표시 |
-| 6 | GitHub Pages 정적 배포 가이드 | `github-pages-deploy-guide.md` | 부록 A-6 · Day 4 | T | P1 | 자리표시 |
+| 1 | Claude 시작 가이드 | `claude-start-guide.md` | 부록 A-1 · Day 1~4 | T | P0 | 초안 (캡처·화면 확인 전) |
+| 2 | GitHub 워크시트 저장소 가이드 | `github-worksheet-repo-guide.md` | 부록 A-2 · Day 1~4 | T | P0 | 초안 (캡처·화면 확인 전) |
+| 3 | Figma 템플릿 열기·복제 가이드 | `figma-template-guide.md` | 부록 A-3 · Day 2~3 | T | P0 | 초안 (캡처·화면 확인 전) |
+| 4 | Stitch 시작 가이드 | `stitch-start-guide.md` | 부록 A-4 · Day 3 | T | P0 | 초안 (캡처·화면 확인 전) |
+| 5 | Claude Code 데스크톱 앱 설치 (Mac판 · Windows판) | `claude-code-install-guide.md` | 부록 A-5 · Day 3~4 | T | P0 | 초안 (캡처·화면 확인 전) |
+| 6 | GitHub Pages 정적 배포 가이드 | `github-pages-deploy-guide.md` | 부록 A-6 · Day 4 | T | P1 | 초안 (캡처·화면 확인 전) |
 | 7 | 사례 분석 시트 가이드 | `case-analysis-sheet-guide.md` | Part 1 · 2절 | W | P2 | 작성 |
 | 8 | 과업·불편 목록 가이드 | `task-pain-list-guide.md` | Part 1 · 4절, 5절 | W | P1 | 작성 |
 | 9 | 페르소나 카드 가이드 | `persona-card-guide.md` | Part 1 · 6절 | W | P2 | 작성 |
@@ -89,17 +89,17 @@
 | 14 | 서비스 구조 설명서 작성 가이드 | `service-structure-guide.md` | Part 2 · 2-8 | W | P1 | 작성 |
 | 15 | 동료 리뷰 진행 가이드 | `peer-review-guide.md` | Part 2 · 2-9 | F | P2 | 작성 |
 | 16 | 화면 흐름 순서표 작성 가이드 | `screen-flow-guide.md` | Part 3 · 3.2 | W+T | P1 | 작성 |
-| 17 | 디자인 쇼핑처 둘러보기 가이드 | `design-shopping-guide.md` | Part 3 · 3.4 (2곳) | R | P1 | 자리표시 |
-| 18 | Stitch 시안 만들기 가이드 | `stitch-draft-guide.md` | Part 3 · 3.5 | P | P1 | 자리표시 |
-| 19 | Claude Code 프로토타이핑 따라 하기 | `claude-code-prototyping-guide.md` | Part 3 · 3.6 | P | **P1 · 가장 중요** | 자리표시 |
-| 20 | AI 판단 화면 신뢰 설계 예시 모음 | `ai-trust-design-examples.md` | Part 3 · 3.7 | R | P2 | 자리표시 |
-| 21 | 여러 버전 통합 가이드 | `version-merge-guide.md` | Part 4 · 4.2 | P | P1 | 자리표시 |
-| 22 | 디자인 스킬 가져오기 가이드 | `design-skill-guide.md` | Part 4 · 4.3 | P | P1 | 자리표시 |
-| 23 | 짝 사용성 테스트 진행 가이드 | `pair-usability-test-guide.md` | Part 4 · 4.4 | F | P1 | 자리표시 |
-| 24 | 파비콘·컬러 샘플 가이드 | `favicon-color-sample-guide.md` | Part 4 · 4.5 | P | P2 | 자리표시 |
-| 25 | 나만의 DESIGN.md 만들기 가이드 | `my-own-design-md-guide.md` | Part 4 · 4.6 | P | P1 | 자리표시 |
-| 26 | 배포 전 점검과 정적 배포 가이드 | `pre-deploy-check-guide.md` | Part 4 · 4.7 | P | P1 | 자리표시 |
-| 27 | 발표·동료 리뷰 진행 가이드 | `presentation-review-guide.md` | Part 4 · 4.8 | F | P2 | 자리표시 |
+| 17 | 디자인 쇼핑처 둘러보기 가이드 | `design-shopping-guide.md` | Part 3 · 3.4 (2곳) | R | P1 | 초안 (캡처·화면 확인 전) |
+| 18 | Stitch 시안 만들기 가이드 | `stitch-draft-guide.md` | Part 3 · 3.5 | P | P1 | 초안 (캡처·화면 확인 전) |
+| 19 | Claude Code 프로토타이핑 따라 하기 | `claude-code-prototyping-guide.md` | Part 3 · 3.6 | P | **P1 · 가장 중요** | 초안 (캡처·화면 확인 전) |
+| 20 | AI 판단 화면 신뢰 설계 예시 모음 | `ai-trust-design-examples.md` | Part 3 · 3.7 | R | P2 | 초안 (캡처·화면 확인 전) |
+| 21 | 여러 버전 통합 가이드 | `version-merge-guide.md` | Part 4 · 4.2 | P | P1 | 초안 (캡처·화면 확인 전) |
+| 22 | 디자인 스킬 가져오기 가이드 | `design-skill-guide.md` | Part 4 · 4.3 | P | P1 | 초안 (캡처·화면 확인 전) |
+| 23 | 짝 사용성 테스트 진행 가이드 | `pair-usability-test-guide.md` | Part 4 · 4.4 | F | P1 | 초안 (캡처·화면 확인 전) |
+| 24 | 파비콘·컬러 샘플 가이드 | `favicon-color-sample-guide.md` | Part 4 · 4.5 | P | P2 | 초안 (캡처·화면 확인 전) |
+| 25 | 나만의 DESIGN.md 만들기 가이드 | `my-own-design-md-guide.md` | Part 4 · 4.6 | P | P1 | 초안 (캡처·화면 확인 전) |
+| 26 | 배포 전 점검과 정적 배포 가이드 | `pre-deploy-check-guide.md` | Part 4 · 4.7 | P | P1 | 초안 (캡처·화면 확인 전) |
+| 27 | 발표·동료 리뷰 진행 가이드 | `presentation-review-guide.md` | Part 4 · 4.8 | F | P2 | 초안 (캡처·화면 확인 전) |
 
 각 자리표시 파일에 목차 초안, 채울 내용, 교재 원문 위치가 들어 있습니다. 교재에서 그 가이드를 가리키는 [실습 안내] 원문은 `_context/textbook-excerpts/<같은 파일 이름>`에 있습니다.
 

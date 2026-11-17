@@ -71,6 +71,15 @@
 | 4.7 | [배포 전 점검과 정적 배포 가이드](guides/pre-deploy-check-guide.md) |
 | 4.8 | [발표·동료 리뷰 진행 가이드](guides/presentation-review-guide.md) |
 
+## 수업 연락처
+
+| 무엇 | 연락처 |
+|---|---|
+| 강사 GitHub 아이디 (워크시트 저장소에 초대) | `wild-mental` |
+| 강사 이메일 (Figma 파일 공유에 초대, can view) | `prfsr.limitless@gmail.com` |
+
+수업 전 준비 중에 막힌 단계는 사전 안내의 체크리스트에 표시해 두고, 첫날 수업 시작 전에 현장에서 함께 해결합니다.
+
 ## 지켜 주세요
 
 - 워크시트 저장소는 끝까지 **Private**으로 두고 강사 GitHub 아이디 `wild-mental`만 초대합니다. 배포는 따로 만드는 공개 저장소로만 합니다.
