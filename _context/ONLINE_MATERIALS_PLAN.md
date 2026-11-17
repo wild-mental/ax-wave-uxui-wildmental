@@ -57,7 +57,7 @@
 
 | # | 배포물 | 상태 | 만들 수준 | 마감 |
 |---|---|---|---|---|
-| ① | 사전 안내문 (Mac판 · Windows판) | 자리표시 (`pre-course-notice.md`) | 수업 전에 끝낼 일: GitHub 계정(아이디가 배포 주소에 들어감)과 워크시트 저장소(강사 `wild-mental` 초대) · Claude 계정 · Claude Code 데스크톱 앱 설치·로그인(유료 플랜이 없으면 다른 AI 코딩 도구) · Figma 무료 계정 · Google 계정(Stitch) · 자료실 주소 · 설치 확인 방법 | **11/17(화)** |
+| ① | 사전 안내문 (Mac판 · Windows판) | 작성 (`pre-course-notice.md`, 2026-11-17) | 수업 전에 끝낼 일: GitHub 계정(아이디가 배포 주소에 들어감)과 워크시트 저장소(강사 `wild-mental` 초대) · Claude 계정 · Claude Code 데스크톱 앱 설치·로그인(유료 플랜이 없으면 다른 AI 코딩 도구) · Figma 무료 계정 · Google 계정(Stitch) · 자료실 주소 · 설치 확인 방법 | **11/17(화)** |
 | ② | 온라인 자료실 (허브) | 뼈대 완료 (`README.md` = 첫 화면) | Day별 가이드 목록 + 배포물 링크. GitHub Pages로 공개 | 11/17 |
 | ③ | 문서 템플릿 | **완료** (`worksheet-template/`) | `worksheet.md` + 시작 안내 `README.md`. 학생은 github.com 화면에서 복사 | 완료 |
 | ④ | Figma 템플릿 파일 | **완료** (강사 계정 파일 + 자료실 링크, SVG 4장은 예비) | 공유 설정 "링크가 있는 누구나 보기" 유지, 원본 편집 권한은 주지 않음 | 완료 |
