@@ -1,6 +1,6 @@
 # ax-wave-uxui-wildmental — 작업 안내
 
-4-1 「웹서비스 UX/UI 기획」 교재(인쇄본)와 함께 쓰는 **온라인 자료실** 저장소입니다. 이 파일은 사이트에 나오지 않습니다(`_config.yml` exclude). 이 저장소에서 일을 시작할 때 이 파일과 `_context/RULES.md`, `_context/ONLINE_MATERIALS_PLAN.md`를 먼저 읽습니다.
+「웹서비스 UX/UI 기획」 교재(인쇄본)와 함께 쓰는 **온라인 자료실** 저장소입니다. 이 파일은 사이트에 나오지 않습니다(`_config.yml` exclude). 이 저장소에서 일을 시작할 때 이 파일과 `_context/RULES.md`, `_context/ONLINE_MATERIALS_PLAN.md`를 먼저 읽습니다.
 
 ## 배경 (2026-11-04)
 
