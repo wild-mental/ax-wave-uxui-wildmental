@@ -120,6 +120,8 @@
 - **`.claude` 폴더가 보이지 않는다** → Mac Finder에서는 점으로 시작하는 숨은 폴더라 `Cmd+Shift+.`을 누릅니다. Windows 파일 탐색기에서는 보통 그대로 보이고, 안 보이면 **보기 → 표시 → 숨겨진 항목**을 켭니다. 자세히: 「[디자인 스킬 가져오기 가이드](../guides/design-skill-guide.md)」
 - **복사본을 만드는 법을 모르겠다** → Mac은 Finder에서 파일을 고르고 `Cmd+D`, Windows는 `Ctrl+C` → `Ctrl+V` 뒤 "- 복사본"이 붙은 파일 이름을 `F2`로 고칩니다. 자세히: 「[Claude Code 프로토타이핑 따라 하기](../guides/claude-code-prototyping-guide.md)」
 - **HTML 파일이 브라우저 대신 편집기로 열린다** → 오른쪽 버튼 → 다음으로 열기(Mac) 또는 연결 프로그램(Windows)에서 Chrome, Safari, Edge 같은 브라우저를 고릅니다. 자세히: 「[Claude Code 프로토타이핑 따라 하기](../guides/claude-code-prototyping-guide.md)」
+- **데이터셋 링크를 눌렀더니 CSV가 다운로드 폴더로 바로 받아졌다** → 정상입니다. 다운로드 폴더에서 담당 프로필 폴더로 옮깁니다. 파일 이름은 바꾸지 않습니다. 자세히: 「[과업·불편 목록 가이드](../guides/task-pain-list-guide.md)」
+- **Excel에서 CSV의 한글이 깨져 보인다** → Google 스프레드시트에서 파일 → 가져오기 → 업로드로 엽니다. Excel을 쓰려면 Windows는 데이터 → 텍스트/CSV에서, Mac은 파일 → 가져오기 → CSV 파일로 열고 파일 원본(인코딩)을 UTF-8로 고릅니다. 자세히: 「[과업·불편 목록 가이드](../guides/task-pain-list-guide.md)」
 - **CSV가 한 칸에 몰려 보인다** (쉼표가 그대로 보임) → 프로그램의 가져오기 기능으로 다시 열고 구분 기호를 "쉼표"로 고릅니다. 자세히: 「[과업·불편 목록 가이드](../guides/task-pain-list-guide.md)」
 - **CSV를 닫을 때 "CSV 형식으로 저장할까요?"가 나온다** → 저장하지 않습니다. 원본 CSV는 고쳐서 저장하지 않습니다. 자세히: 「[과업·불편 목록 가이드](../guides/task-pain-list-guide.md)」
 - **정렬한 CSV를 원본 위에 저장했다** → 원본 파일을 다시 받아 `data` 폴더에 넣고, 정렬은 사본에서 합니다. 자세히: 「[화면 흐름 순서표 작성 가이드](../guides/screen-flow-guide.md)」
