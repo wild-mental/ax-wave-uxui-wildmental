@@ -26,7 +26,7 @@
 | 13 | 프로필 데이터셋 | Day 1~4 | [datasets](datasets/) — 고른 프로필 폴더(`m-general` · `f-general` · `m-athlete` · `f-athlete`)의 CSV 4개 |
 | 19~51 | 지시문 킷 (Part 1·2) | Day 1~2 | [Part 1·2 지시문 킷](kits/claude-prompts-part-1-2.md) — 교재 Part 1·2의 [실습 안내]에 있는 Claude 지시문 7개 |
 | 65~92 · 99 | 지시문 킷 (Part 3·4) | Day 3~4 | [Part 3·4 지시문 킷](kits/claude-code-prompts.md) — Stitch · Claude Code 지시문 12개 |
-| 63 · 64 · 90 | 샘플 DESIGN.md | Day 3~4 | [DESIGN-axyourbody-sample.md](kits/DESIGN-axyourbody-sample.md) |
+| 63 · 64 · 90 | 샘플 DESIGN.md | Day 3~4 | [DESIGN-axyourbody-sample.md](kits/DESIGN-axyourbody-sample.md) (교재 3.3절 항목 순서) · [디자인 B 버전](kits/DESIGN-axyourbody-sample-B.md) (화면 구조까지 정한 다른 방향) |
 
 ## 온라인 가이드
 
@@ -110,6 +110,7 @@
 
 | 날짜 | 바뀐 것 |
 |---|---|
+| 2026-11-24 | Day 3: Part 3·4 지시문 킷을 교재 지시문과 맞췄습니다(첫 프로토타입·신뢰 요소·Stitch 칸 이름). 교재 지시문의 예제 이름을 바꾸라는 안내, 작업 진도가 뒤처질 때 대처 방안, 화면 목록을 PDF로 옮기는 방법, 신뢰 요소 전 복사본 이름을 더했습니다. 샘플 DESIGN.md를 교재 3.3절 항목 순서로 바꾸고, 이전 샘플은 디자인 B 버전으로 남겼습니다. Auto 모드는 조건을 갖췄을 때만 쓰도록 바꿨습니다 |
 | 2026-11-23 | Day 2: 이벤트 보드 가이드에 사건 목록을 PDF로 꺼내 Claude에게 옮기는 방법(3부)을 더했습니다. 불편 번호는 과업 번호로 적는다는 안내, 지시문 첫 줄 인물 소개를 내 프로필로 바꾸는 안내, 흐름이 바뀌는 날 찾기에 일반인은 meal.csv도 넣는 안내를 더했습니다 |
 | 2026-11-23 | 용어 대조표 작성 가이드: 사용자 용어 후보를 Day 1 페르소나 카드의 `→ 용어 재료`에서 먼저 가져오도록 연결했습니다 |
 | 2026-11-23 | 과업·불편 목록 가이드 · 데이터셋 안내 · 막혔을 때 모음: 데이터셋 링크를 누르면 바로 내려받아질 수 있다는 안내와, Excel에서 한글이 깨질 때 여는 법을 더했습니다 |

@@ -24,7 +24,7 @@
 | 9~11 | 공통 PRD · AX YOUR BODY | `textbook-materials/common-prd.md` | 작성 |
 | 12~15 | 핵심 타깃 프로필 4종 (프로필 카드) | `textbook-materials/profile-cards.md` | 작성 |
 | 13 | 4주치 기록 데이터셋 안내 | `datasets/README.md` + `datasets/{m-general,f-general,m-athlete,f-athlete}/` CSV 4개씩 | 작성 |
-| 63 · 64 · 90 | 샘플 DESIGN.md | `kits/DESIGN-axyourbody-sample.md` | 작성 |
+| 63 · 64 · 90 | 샘플 DESIGN.md | `kits/DESIGN-axyourbody-sample.md` (3.3절 항목 순서, 11/24 교체) · `kits/DESIGN-axyourbody-sample-B.md` (이전 샘플, 디자인 B 버전) | 작성 |
 
 ## 3. 온라인 가이드 27개 (`→ 온라인 가이드: 「이름」`)
 

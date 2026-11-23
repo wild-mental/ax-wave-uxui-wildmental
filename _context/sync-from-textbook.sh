@@ -5,7 +5,7 @@ set -e
 HERE=$(cd "$(dirname "$0")/.." && pwd)
 SRC="$HERE/../docs/4-1"
 [ -d "$SRC/manuscript" ] || { echo "상위 프로젝트 docs/4-1 을 찾을 수 없습니다: $SRC"; exit 1; }
-cp "$SRC/kits/claude-code-prompts.md" "$SRC/kits/DESIGN-axyourbody-sample.md" "$HERE/kits/"
+cp "$SRC/kits/claude-code-prompts.md" "$SRC/kits/DESIGN-axyourbody-sample.md" "$SRC/kits/DESIGN-axyourbody-sample-B.md" "$HERE/kits/"
 for p in m-general f-general m-athlete f-athlete; do
   mkdir -p "$HERE/datasets/$p" && cp "$SRC/dataset/$p/"*.csv "$HERE/datasets/$p/"
 done

@@ -106,7 +106,7 @@
 - **로그인이 안 되거나 "사용할 수 없다"고 나온다** → 회사·학교 Google 계정은 관리자가 막아 두었을 수 있습니다. 개인 Gmail 계정으로 다시 로그인합니다. 자세히: 「[Stitch 시작 가이드](../guides/stitch-start-guide.md)」
 - **생성이 오래 걸리거나 멈췄다** → 2~3분 기다린 뒤 페이지를 새로 고칩니다. 만든 시안은 프로젝트에 남아 있습니다. 같은 지시를 여러 번 보내면 한도만 줄어듭니다. 자세히: 「[Stitch 시작 가이드](../guides/stitch-start-guide.md)」
 - **한도를 다 썼다는 안내가 나온다** → 이미 만든 시안으로 비교를 마칩니다. 시간이 모자라면 테마 2개 × 화면 2장으로 줄입니다. 시안이 모자라면 짝의 Stitch 화면을 함께 봅니다. 자세히: 「[Stitch 시안 만들기 가이드](../guides/stitch-draft-guide.md)」 · 「[Stitch 시작 가이드](../guides/stitch-start-guide.md)」
-- **DESIGN.md 파일 첨부가 안 되거나 입력창이 너무 길다** → 메모장으로 열어 내용 전체를 `[디자인 규칙]` 아래에 붙여 넣습니다. 길어도 그대로 보내도 됩니다. 잘리면 색 · 글꼴 · 부품 · 하지 말 것 항목만 붙입니다. 자세히: 「[Stitch 시안 만들기 가이드](../guides/stitch-draft-guide.md)」 · 「[Stitch 시작 가이드](../guides/stitch-start-guide.md)」
+- **DESIGN.md 파일 첨부가 안 되거나 입력창이 너무 길다** → `[디자인]` 줄을 "아래 DESIGN.md의 규칙만 따라 주세요. 문서에 없는 색은 쓰지 마세요."로 바꾸고, 메모장으로 연 내용 전체를 지시문 맨 끝에 붙여 넣습니다. 길어도 그대로 보내도 됩니다. 잘리면 색 · 글꼴 · 부품 · 하지 말 것 항목만 붙입니다. 자세히: 「[Stitch 시안 만들기 가이드](../guides/stitch-draft-guide.md)」 · 「[Stitch 시작 가이드](../guides/stitch-start-guide.md)」
 - **휴대폰 화면(App)으로 만들었다** → 같은 프로젝트에서 "같은 화면을 웹 데스크톱 너비로 다시 만들어 줘"라고 하거나, 새 프로젝트를 **Web**으로 엽니다. 자세히: 「[Stitch 시작 가이드](../guides/stitch-start-guide.md)」
 - **고치라고 한 화면 말고 다른 화면이 바뀌거나 새 화면이 생겼다** → 캔버스에서 고칠 화면을 한 번 눌러 고른 상태로 두고 다시 지시합니다. 자세히: 「[Stitch 시작 가이드](../guides/stitch-start-guide.md)」
 - **DESIGN.md를 무시하는 것 같다** → "첨부한 DESIGN.md의 색·글꼴·모서리 규칙을 세 줄로 요약한 뒤 그 규칙대로 다시 그려 주세요." 자세히: 「[Stitch 시안 만들기 가이드](../guides/stitch-draft-guide.md)」

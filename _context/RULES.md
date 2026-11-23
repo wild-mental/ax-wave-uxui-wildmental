@@ -75,7 +75,7 @@ axyourbody-prototype/
 └── deploy/                           ← index.html + favicon.svg 만
 ```
 
-- 복사본(큰 변경 전에 남기는 파일): `<원래 파일 이름>-before-<다음 작업>` 한 가지 형식만 씁니다. 교재 인쇄 예 `prototype-first-<테마이름>-before-states.html`(3.6) · `prototype-merged-before-skill.html`(4.3). 가이드에서 정한 것: `prototype-merged-before-leftover.html` · `prototype-improved-before-resources.html` · `my-own-DESIGN-before-standalone.md` · `prototype-final-before-deploy.html`. `-backup`·날짜 붙이기는 쓰지 않습니다. 복사본은 작업 폴더 맨 위에 두고 `deploy/`·컬러 샘플에 넣지 않습니다.
+- 복사본(큰 변경 전에 남기는 파일): `<원래 파일 이름>-before-<다음 작업>` 한 가지 형식만 씁니다. 교재 인쇄 예 `prototype-first-<테마이름>-before-states.html`(3.6) · `prototype-merged-before-skill.html`(4.3). 가이드에서 정한 것: `prototype-first-<테마이름>-before-trust.html`(3.7 신뢰 요소 전) · `prototype-merged-before-leftover.html` · `prototype-improved-before-resources.html` · `my-own-DESIGN-before-standalone.md` · `prototype-final-before-deploy.html`. `-backup`·날짜 붙이기는 쓰지 않습니다. 복사본은 작업 폴더 맨 위에 두고 `deploy/`·컬러 샘플에 넣지 않습니다.
 - 버전 이름: 첫 프로토타입 · 통합 프로토타입 · 개선 프로토타입 · 최종 프로토타입 · 페르소나 카드 초안.
 - 테마 이름 예(교재에 인쇄된 것만): 김도현 예 `bright-coaching`(밝은 코칭형) · `neat-basic`(단정한 기본형) · `activity-record`(활동 기록형), 박준혁 예 `calm-record-board`(차분한 기록 보드) · `sport-brand`(스포츠 브랜드) · `clinic-report`(병원 리포트).
 - 과업 번호: "과업 1, 과업 2 …".
