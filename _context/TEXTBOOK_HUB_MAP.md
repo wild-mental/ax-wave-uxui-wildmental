@@ -118,6 +118,7 @@
 | 자료실 위치 | 내용 |
 |---|---|
 | `help/stuck-guide.md` · `help/other-coding-tools.md` · `help/windows-notes.md` | 도움말 3개 (막혔을 때 모음 · 다른 AI 코딩 도구 대응 · Windows 메모, grip T64) |
+| `guides/day2-at-a-glance.md` | Day 2 한눈에 보기 — IA 3층 8키워드 개념 그림(`guides/images/day2-at-a-glance-1.png`, GPT 이미지 생성), 김도현·이서연 여정 단계 표(교재 36쪽) (2026-11-25) |
 | `README.md` 「가이드 고침 이력」 | 수업 중 가이드를 고친 날짜와 한 줄 |
 | `guides/images/` | 가이드 캡처 자리 12곳 (아직 비어 있음, grip T58) |
 | `_context/` | 작성 규칙, 제작 계획, 교재 원문 발췌, 생성·동기화 스크립트, 이 매칭표 (사이트에는 안 보임) |
