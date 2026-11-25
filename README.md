@@ -73,11 +73,14 @@ IA 3층 8키워드 그림과 김도현·이서연 여정 단계 표(교재 36쪽
 
 ### Day 3 · 11/26 (목) — Part 3
 
+오후 Claude Code 실습(3.6)은 화면 배치를 먼저 정하고 테마를 입히는 순서로 합니다. 배치안 2~3개를 받아 grip-it 스킬로 결정하고, 디자인 없는 배치 뼈대를 만든 뒤, 테마마다 배치와 요소 유형까지 바꿔 봅니다. 「[화면 배치 먼저 정하고 테마 입히기](guides/layout-first-theme-guide.md)」를 먼저 봅니다.
+
 | 쪽 | 절 | 온라인 가이드 | 함께 쓰는 자료 |
 |---|---|---|---|
 | 60 | 3.2 | [화면 흐름 순서표 작성 가이드](guides/screen-flow-guide.md) | [Figma](figma-template/) 02 「과업별 화면 흐름 순서표와 화면 목록」 |
 | 64 | 3.4 | [디자인 쇼핑처 둘러보기 가이드](guides/design-shopping-guide.md) | [워크시트](https://github.com/wild-mental/ax-wave-uxui-wildmental/blob/main/worksheet-template/worksheet.md) 「참고할 AI 디자인 가이드(DESIGN.md) 후보 쇼핑 목록」 · [샘플 DESIGN.md](kits/DESIGN-axyourbody-sample.md) |
 | 66 | 3.5 | [Stitch 시안 만들기 가이드](guides/stitch-draft-guide.md) | [킷](kits/claude-code-prompts.md) 「Stitch 테마별 시안 생성 지시문」 · [Figma](figma-template/) 03 「Google Stitch로 만든 테마별 화면 시안 비교표」 |
+| 67~71 | 3.6 | [화면 배치 먼저 정하고 테마 입히기](guides/layout-first-theme-guide.md) | [워크시트](https://github.com/wild-mental/ax-wave-uxui-wildmental/blob/main/worksheet-template/worksheet.md) 「Claude에 넘길 서비스 구조 설명서」(`context/service-structure.md`) · [grip-it 스킬](https://github.com/wild-mental/grip-it-skill) · [워크시트](https://github.com/wild-mental/ax-wave-uxui-wildmental/blob/main/worksheet-template/worksheet.md) 「테마별로 만든 첫 프로토타입과 버전 기록」 |
 | 71 | 3.6 | [Claude Code 프로토타이핑 따라 하기](guides/claude-code-prototyping-guide.md) | [킷](kits/claude-code-prompts.md) 「서비스 구조를 넘기고 첫 프로토타입을 만드는 지시문」 · 「테마별 프로토타입 추가 생성 지시문」 · 「빈 상태·오류 등 상태 화면과 신뢰 요소 추가 지시문」 · [워크시트](https://github.com/wild-mental/ax-wave-uxui-wildmental/blob/main/worksheet-template/worksheet.md) 「테마별로 만든 첫 프로토타입과 버전 기록」 |
 | 74 | 3.7 | [AI 판단 화면 신뢰 설계 예시 모음](guides/ai-trust-design-examples.md) | [킷](kits/claude-code-prompts.md) 「빈 상태·오류 등 상태 화면과 신뢰 요소 추가 지시문」의 신뢰 요소 넣기 |
 
@@ -123,6 +126,7 @@ IA 3층 8키워드 그림과 김도현·이서연 여정 단계 표(교재 36쪽
 
 | 날짜 | 바뀐 것 |
 |---|---|
+| 2026-11-26 | Day 3: 「화면 배치 먼저 정하고 테마 입히기」를 더했습니다. Plan 모드로 배치안 2~3개를 받고 grip-it 스킬로 결정한 뒤, 디자인 없는 배치 뼈대(`prototype-layout.html`)를 만들고, 테마를 입힐 때는 지킬 것(흐름 순서·꼭 필요한 동작)만 지키면 배치와 요소 유형을 바꿔도 된다고 지시합니다. 교재 3.6절 1단계·3단계 지시문을 대신합니다. 막혔을 때 모음에도 같은 항목을 더했습니다 |
 | 2026-11-25 | 진입점 선택표 가이드: 위치 표시 칸은 지금 어디 있는지 알려 주는 방법(현재 메뉴 강조·경로 표시·뒤로 가기)을 적는 칸이고, 색을 써도 되지만 색 하나에만 기대지 않는다는 뜻으로 안내를 고쳤습니다 |
 | 2026-11-25 | Day 2: 동료 리뷰 진행 가이드를 짝 대화 세 번(사건 함께 쏟아내고 명사 뽑기 · Claude 리뷰를 받고 고친 이유 이야기하기 · 너무 일반적인 낱말 함께 고치기)으로 바꿨습니다. 교재 2.9절의 이름 뜻 말하기 리뷰 대신 세 번째 대화를 하고, 서비스 구조 설명서는 세 대화 뒤 맨 마지막에 씁니다. 워크시트 문서의 대상 객체 카드 아래에 "Claude 리뷰와 고친 이유" 줄을 더했습니다 |
 | 2026-11-25 | Day 2: 「Day 2 한눈에 보기」를 더했습니다. IA 3층 8키워드를 쌓은 그림과, 김도현·이서연 여정 단계를 표로 옮긴 것(교재 36쪽)입니다 |

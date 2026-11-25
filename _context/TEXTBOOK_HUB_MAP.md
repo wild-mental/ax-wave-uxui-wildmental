@@ -119,6 +119,7 @@
 |---|---|
 | `help/stuck-guide.md` · `help/other-coding-tools.md` · `help/windows-notes.md` | 도움말 3개 (막혔을 때 모음 · 다른 AI 코딩 도구 대응 · Windows 메모, grip T64) |
 | `guides/day2-at-a-glance.md` | Day 2 한눈에 보기 — IA 3층 8키워드 개념 그림(`guides/images/day2-at-a-glance-1.png`, GPT 이미지 생성), 김도현·이서연 여정 단계 표(교재 36쪽) (2026-11-25) |
+| `guides/layout-first-theme-guide.md` | 화면 배치 먼저 정하고 테마 입히기 — 교재 3.6절 67~70쪽 사이에 끼우는 Day 3 실습 흐름. Plan 모드 배치안 2~3개 → grip-it 결정(`context/screen-layout.md` · `context/grip-register.md`) → 배치 뼈대 `prototype-layout.html` → 지킬 것만 지키고 배치·요소 유형을 바꿔도 되는 테마 입히기. 교재 70쪽 1·3단계 지시문 대신. 예시는 가이드 안에 넣은 예시 서비스 구조 설명서(운동 관리 앱, 네 프로필 밖) (2026-11-26) |
 | `README.md` 「가이드 고침 이력」 | 수업 중 가이드를 고친 날짜와 한 줄 |
 | `guides/images/` | 가이드 캡처 자리 12곳 (아직 비어 있음, grip T58) |
 | `_context/` | 작성 규칙, 제작 계획, 교재 원문 발췌, 생성·동기화 스크립트, 이 매칭표 (사이트에는 안 보임) |
