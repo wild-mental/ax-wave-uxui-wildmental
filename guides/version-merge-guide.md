@@ -32,6 +32,7 @@ Day 4도 **수업 시간 안에 모든 단계를 끝내지 않아도 됩니다.*
 
 ## 시작 전에
 
+- [ ] 「[프로토타입 결과물을 goal 프롬프트로 일괄 완성도 높이기](goal-polish-guide.md)」로 테마 파일을 다듬었다면, 그 가이드의 `-before-goal` 복사본도 비교 대상에서 뺍니다. 건너뛰어도 됩니다.
 - [ ] Claude 데스크톱 앱 Code 탭에서 작업 폴더 `axyourbody-prototype`을 열었다.
 - [ ] 폴더 맨 위에 `prototype-first-{테마이름}.html`이 두 개 이상 있고, 상태 화면을 넣은 파일에서는 브라우저로 상태 미리 보기까지 눌러 봤다. 상태 화면·신뢰 요소가 첫 테마에만 있어도 됩니다(3단계). `-before-`가 붙은 복사본(`-before-states`, `-before-trust` 등)은 모두 비교 대상이 아닙니다.
 - [ ] **폴더째 복사본을 만들었다.** Finder(Windows는 파일 탐색기)에서 `axyourbody-prototype` 폴더를 복사해 작업 폴더 바깥(예: 바탕화면)에 `axyourbody-prototype-day3`처럼 두면, 무엇이 잘못돼도 Day 3 끝 상태로 돌아갈 수 있습니다.
