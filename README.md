@@ -100,7 +100,7 @@ IA 3층 8키워드 그림과 김도현·이서연 여정 단계 표(교재 36쪽
 | 92 | 4.7 | [배포 전 점검과 정적 배포 가이드](guides/pre-deploy-check-guide.md) | [킷](kits/claude-code-prompts.md) 「배포 전 개인정보 점검·정적 배포 준비 지시문」 · [워크시트](https://github.com/wild-mental/ax-wave-uxui-wildmental/blob/main/worksheet-template/worksheet.md) 「공개 전 개인정보·품질을 확인한 배포 전 점검표와 배포 링크」 |
 | 93 | 4.8 | [발표·동료 리뷰 진행 가이드](guides/presentation-review-guide.md) | 내 배포 링크 · [워크시트](https://github.com/wild-mental/ax-wave-uxui-wildmental/blob/main/worksheet-template/worksheet.md) 「테마별로 만든 첫 프로토타입과 버전 기록」 |
 
-수업이 끝난 뒤 최종 프로토타입을 React · Vite · SQLite 앱 형태의 프로토타입으로 키우려면, PRD를 최종본으로 먼저 쓰고 앱 만들기를 지시합니다. 「[최종 프로토타입을 React 앱 프로토타입으로 고도화하기](guides/react-app-upgrade-guide.md)」를 봅니다.
+수업이 끝난 뒤 최종 프로토타입을 React · Vite · SQLite 앱 형태의 프로토타입으로 키우려면, PRD를 최종본으로 먼저 쓰고, 널리 쓰이는 화면·경험 원칙(토스 컨슈머 UX 가이드)과 코드 품질 원칙(Frontend Fundamentals)을 원칙 문서로 정리한 뒤 앱 만들기를 지시합니다. 「[최종 프로토타입을 React 앱 프로토타입으로 고도화하기](guides/react-app-upgrade-guide.md)」를 봅니다.
 
 ## 도움말
 
@@ -130,6 +130,7 @@ IA 3층 8키워드 그림과 김도현·이서연 여정 단계 표(교재 36쪽
 
 | 날짜 | 바뀐 것 |
 |---|---|
+| 2026-11-27 | 「최종 프로토타입을 React 앱 프로토타입으로 고도화하기」에 2단계 「프론트엔드 원칙 문서 만들기」를 더했습니다. 토스 컨슈머 UX 가이드(가로막지 않기 · 화면 문구 · 그래픽 · 탭바와 모바일 폭)와 Frontend Fundamentals 코드 품질(가독성 · 예측 가능성 · 응집도 · 결합도)을 이 앱에 맞게 `docs/frontend-principles.md`로 정리하고, 앱을 만든 뒤 원칙대로 됐는지 점검합니다. 앱 만들기는 3단계가 되었습니다 |
 | 2026-11-27 | 수업 뒤 자료: 「최종 프로토타입을 React 앱 프로토타입으로 고도화하기」를 더했습니다. 워크시트를 모아 PRD 최종본(개요·목표, 페르소나, 사용자 스토리와 수용 기준, MoSCoW 기능 요구사항, 비기능 요구사항, 데이터·인터페이스)을 쓰고, `prototype-final.html`을 기준으로 React · Vite · SQLite 앱을 계획부터 작은 단위로 만들게 지시합니다 |
 | 2026-11-27 | Day 4: 「프로토타입 결과물을 goal 프롬프트로 일괄 완성도 높이기」를 더했습니다. AI 슬롭 점검 목록(색·장식, 배치·위계, 글꼴·아이콘, 화면 문구, 빠진 것)으로 품질 원칙 문서를 만들고, `/goal-setting`으로 설계한 goal 프롬프트를 `/goal`로 맡긴 뒤 aztks로 두 번(작업할 때 · 평가할 때) 확인하고, grip-it으로 AI가 스스로 정한 것을 되짚습니다. 통합(4.2절) 전에 합니다. 막혔을 때 모음에도 같은 항목을 더했습니다 |
 | 2026-11-26 | 「화면 배치 먼저 정하고 테마 입히기」 5단계에 "짝과 5분 · 테마 느낌 맞혀 보기"를 더했습니다. 짝이 테마마다 어떤 서비스처럼 보이는지 한 낱말로 말하고, 내가 적은 낱말과 견주어 봅니다 |
