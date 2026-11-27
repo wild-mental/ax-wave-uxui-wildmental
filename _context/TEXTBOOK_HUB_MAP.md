@@ -121,6 +121,7 @@
 | `guides/day2-at-a-glance.md` | Day 2 한눈에 보기 — IA 3층 8키워드 개념 그림(`guides/images/day2-at-a-glance-1.png`, GPT 이미지 생성), 김도현·이서연 여정 단계 표(교재 36쪽) (2026-11-25) |
 | `guides/layout-first-theme-guide.md` | 화면 배치 먼저 정하고 테마 입히기 — 교재 3.6절 67~70쪽 사이에 끼우는 Day 3 실습 흐름. Plan 모드 배치안 2~3개 → grip-it 결정(`context/screen-layout.md` · `context/grip-register.md`) → 배치 뼈대 `prototype-layout.html` → 지킬 것만 지키고 배치·요소 유형을 바꿔도 되는 테마 입히기. 교재 70쪽 1·3단계 지시문 대신. 예시는 가이드 안에 넣은 예시 서비스 구조 설명서(운동 관리 앱, 네 프로필 밖) (2026-11-26) |
 | `guides/goal-polish-guide.md` | 프로토타입 결과물을 goal 프롬프트로 일괄 완성도 높이기 — Day 4 시작, 교재 4.2절 79쪽 앞에 끼우는 흐름. 원칙 문서를 먼저 자세히 넣는 이유와 AI 생산성 레시피(상세 지시 → `/goal` 핸즈오프 → `/goal-setting` → aztks 두 번 → grip-it), AI 슬롭 점검 목록 다섯 영역(참고: Scalr 「20 Signs a Website Was Made by AI」). `-before-goal` 복사본 → `context/ai-slop-checklist.md` · `context/polish-principles.md` → goal 프롬프트(`context/goals/`) → `/goal`(결과 `context/goal-report.md` · `context/goal-questions.md`) → grip-it(`context/grip-register.md`). 스킬은 `wild-mental/goal-setting-skill` · `wild-mental/aztks-skill`(aztks-agent 포함) (2026-11-27) |
+| `guides/react-app-upgrade-guide.md` | 최종 프로토타입을 React 앱 프로토타입으로 고도화하기 — 수업 뒤 자료. PRD 최종본 틀 6부분(개요·목표 / 페르소나 / 사용자 스토리·AC / FR MoSCoW / NFR / 데이터·인터페이스)과 칸별 워크시트 출처, Claude Code PRD 초안 지시 → grip-it으로 빈칸 확정 → Plan 모드 계획(MUST만, WON'T 금지) → 작은 단위로 React · Vite · SQLite 앱. 예시는 운동 관리 앱(네 프로필 밖) (2026-11-27) |
 | `README.md` 「가이드 고침 이력」 | 수업 중 가이드를 고친 날짜와 한 줄 |
 | `guides/images/` | 가이드 캡처 자리 12곳 (아직 비어 있음, grip T58) |
 | `_context/` | 작성 규칙, 제작 계획, 교재 원문 발췌, 생성·동기화 스크립트, 이 매칭표 (사이트에는 안 보임) |
